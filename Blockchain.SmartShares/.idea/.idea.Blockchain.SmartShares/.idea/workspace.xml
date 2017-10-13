@@ -11,25 +11,35 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Blockchain.SmartShares.csproj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blockchain.SmartShares.csproj">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Block.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Block.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="1787">
+              <caret line="117" column="8" lean-forward="true" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
               <folding>
-                <marker date="1507741169491" expanded="true" signature="47:295" ph="{...}" />
-                <marker date="1507741169491" expanded="true" signature="72:282" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="6:121" ph="..." />
+                <marker date="1507883267622" expanded="false" signature="191:488" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="244:482" ph="{...}" />
+                <marker date="1507883267622" expanded="false" signature="520:872" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="583:866" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="874:1434" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
+                <marker date="1507883267622" expanded="true" signature="1441:1510" ph="/// Пример использования подписи ... " />
+                <marker date="1507883267622" expanded="true" signature="1544:2880" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="1671:1945" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="1746:1935" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="2002:2412" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="2077:2402" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="2492:2874" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="2567:2864" ph="{...}" />
+                <marker date="1507883267622" expanded="false" signature="2907:3879" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="2960:3873" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="3375:3506" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
+                <marker date="1507883267622" expanded="true" signature="3708:3792" ph="/* Create a signature for HashValue and assign it to ... */" />
+                <marker date="1507883267622" expanded="true" signature="3915:4531" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="3991:4525" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="4337:4415" ph="{...}" />
+                <marker date="1507883267622" expanded="true" signature="4428:4506" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -38,12 +48,14 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Block.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Block.cs" />
+        <option value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" />
       </list>
     </option>
   </component>
@@ -54,10 +66,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -83,11 +95,7 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Blockchain.SmartShares (1 project)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blockchain.SmartShares" />
+              <option name="myItemId" value="Blockchain.SmartShares (2 projects)" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -112,7 +120,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.Default">
+  <component name="RunManager" selected=".NET Project.Blockchain.ConsoleApplication">
+    <configuration default="false" name="Blockchain.ConsoleApplication" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/Blockchain.ConsoleApplication.csproj" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/bin/Debug/Blockchain.ConsoleApplication.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/bin/Debug" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="DotNetProject" factoryName=".NET Project">
       <option name="PROJECT_PATH" value="" />
       <option name="PROJECT_KIND" value="None" />
@@ -145,6 +165,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -179,9 +205,15 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+      <item index="1" class="java.lang.String" itemvalue=".NET Project.Blockchain.ConsoleApplication" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue=".NET Project.Blockchain.ConsoleApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -194,11 +226,12 @@
       <option name="presentableId" value="Default" />
       <updated>1507723694626</updated>
       <workItem from="1507723696749" duration="2733000" />
+      <workItem from="1507878307555" duration="4946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2733000" />
+    <option name="totallyTimeSpent" value="7679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -210,28 +243,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42329228" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -254,9 +287,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Class1.cs">
+    <entry file="file://$PROJECT_DIR$/Block.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="264">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1507878735029" expanded="true" signature="47:313" ph="{...}" />
+            <marker date="1507878735029" expanded="true" signature="72:300" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/Blockchain.SmartShares.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -264,11 +309,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Block.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="363">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
-            <marker date="1507741169491" expanded="true" signature="47:295" ph="{...}" />
-            <marker date="1507741169491" expanded="true" signature="72:282" ph="{...}" />
+            <marker date="1507878735029" expanded="true" signature="47:313" ph="{...}" />
+            <marker date="1507878735029" expanded="true" signature="72:300" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1787">
+          <caret line="117" column="8" lean-forward="true" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
+          <folding>
+            <marker date="1507883267622" expanded="true" signature="6:121" ph="..." />
+            <marker date="1507883267622" expanded="false" signature="191:488" ph="{...}" />
+            <marker date="1507883267622" expanded="true" signature="244:482" ph="{...}" />
+            <marker date="1507883267622" expanded="false" signature="520:872" ph="{...}" />
+            <marker date="1507883267622" expanded="true" signature="583:866" ph="{...}" />
+            <marker date="1507883267622" expanded="true" signature="874:1434" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
+            <marker date="1507883267622" expanded="true" signature="1441:1510" ph="/// Пример использования подписи ... " />
+            <marker date="1507883267622" expanded="true" signature="1544:2880" ph="{...}" />
+            <marker date="1507883267622" expanded="true" signature="1671:1945" ph="{...}" />
+            <marker date="1507883267622" expanded="true" signature="1746:1935" ph="{...}" />
+            <marker date="1507883267622" expanded="true" signature="2002:2412" ph="{...}" />
+            <marker date="1507883267622" expanded="true" signature="2077:2402" ph="{...}" />
+            <marker date="1507883267622" expanded="true" signature="2492:2874" ph="{...}" />
+            <marker date="1507883267622" expanded="true" signature="2567:2864" ph="{...}" />
+            <marker date="1507883267622" expanded="false" signature="2907:3879" ph="{...}" />
+            <marker date="1507883267622" expanded="true" signature="2960:3873" ph="{...}" />
+            <marker date="1507883267622" expanded="true" signature="3375:3506" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
+            <marker date="1507883267622" expanded="true" signature="3708:3792" ph="/* Create a signature for HashValue and assign it to ... */" />
+            <marker date="1507883267622" expanded="true" signature="3915:4531" ph="{...}" />
+            <marker date="1507883267622" expanded="true" signature="3991:4525" ph="{...}" />
+            <marker date="1507883267622" expanded="true" signature="4337:4415" ph="{...}" />
+            <marker date="1507883267622" expanded="true" signature="4428:4506" ph="{...}" />
           </folding>
         </state>
       </provider>

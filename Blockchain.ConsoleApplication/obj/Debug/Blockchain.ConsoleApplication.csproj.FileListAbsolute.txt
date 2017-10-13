@@ -1,0 +1,6 @@
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\Blockchain.ConsoleApplication.exe
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\Blockchain.ConsoleApplication.pdb
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\obj\Debug\Blockchain.ConsoleApplication.csprojResolveAssemblyReference.cache
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\obj\Debug\Blockchain.ConsoleApplication.csproj.CoreCompileInputs.cache
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\obj\Debug\Blockchain.ConsoleApplication.exe
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\obj\Debug\Blockchain.ConsoleApplication.pdb

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain.SmartShares", "Blockchain.SmartShares.csproj", "{C146BE58-F118-4EC3-B540-6D984D7777FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain.ConsoleApplication", "..\Blockchain.ConsoleApplication\Blockchain.ConsoleApplication.csproj", "{6EA02A93-76A7-44F4-B729-81FAD5690CF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C146BE58-F118-4EC3-B540-6D984D7777FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C146BE58-F118-4EC3-B540-6D984D7777FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C146BE58-F118-4EC3-B540-6D984D7777FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA02A93-76A7-44F4-B729-81FAD5690CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA02A93-76A7-44F4-B729-81FAD5690CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA02A93-76A7-44F4-B729-81FAD5690CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA02A93-76A7-44F4-B729-81FAD5690CF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

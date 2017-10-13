@@ -8,6 +8,8 @@ namespace Blockchain.SmartShares
         public DateTime Timestamp { get; set; }
         public string Hash { get; private set; }
         public string PreviuosHash { get; private set; }
+        
+        
     }
     
      
