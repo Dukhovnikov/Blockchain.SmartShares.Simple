@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
+using Newtonsoft.Json;
 
 namespace Blockchain.ConsoleApplication
 {
@@ -10,11 +11,30 @@ namespace Blockchain.ConsoleApplication
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Input the text:");
-            var hash = SHAconstuctor.GetHashSha256(Console.ReadLine());
+            //Console.WriteLine("Input the text:");
+            //var hash = SHAconstuctor.GetHashSha256(Console.ReadLine());
 
-            Console.WriteLine("Hash was generated: {0}", hash);
-            Console.ReadKey();
+            //Console.WriteLine("Hash was generated: {0}", hash);
+            //Console.ReadKey();
+            
+            byte[] publicKey;
+            byte[] privateKey;
+            GenerateKey(out privateKey, out publicKey);
+            
+        }
+    }
+
+    public static class KeyGen
+    {
+        public static void GenerateKey(out byte[] privateKey, out byte[] publicKey)
+        {
+            ECCurve Curve = ECCurve.NamedCurves.nistP256;
+            ECParameters param;
+            using (var dsa = ECDsa.Create(Curve))
+                param = dsa.ExportParameters(true);
+
+            privateKey = param.D;
+            publicKey = ToBytes(param.Q);
         }
     }
 

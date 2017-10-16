@@ -11,50 +11,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3000">
-              <caret line="129" column="1" lean-forward="false" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
+            <state relative-caret-position="870">
+              <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
               <folding>
-                <marker date="1507925926216" expanded="false" signature="6:121" ph="..." />
-                <marker date="1507925926216" expanded="true" signature="162:4571" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="191:488" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="244:482" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="520:872" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="583:866" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="874:1434" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
-                <marker date="1507925926216" expanded="true" signature="1441:1510" ph="/// Пример использования подписи ... " />
-                <marker date="1507925926216" expanded="true" signature="1544:2880" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="1671:1945" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="1746:1935" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="2002:2412" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="2077:2402" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="2492:2874" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="2567:2864" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="2907:3879" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="2960:3873" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="3375:3506" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
-                <marker date="1507925926216" expanded="true" signature="3708:3792" ph="/* Create a signature for HashValue and assign it to ... */" />
-                <marker date="1507925926216" expanded="true" signature="3915:4569" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="3991:4563" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="4351:4441" ph="{...}" />
-                <marker date="1507925926216" expanded="true" signature="4458:4552" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="6:144" ph="..." />
+                <marker date="1508154789848" expanded="true" signature="185:5162" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="214:662" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="267:656" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="290:503" ph="/* Console.WriteLine(&quot;Input the text:&quot;); ... */" />
+                <marker date="1508154789848" expanded="true" signature="694:1079" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="784:1073" ph="{...}" />
+                <marker date="1508154789848" expanded="false" signature="1111:1463" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="1174:1457" ph="{...}" />
+                <marker date="1508154789848" expanded="false" signature="1465:2025" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
+                <marker date="1508154789848" expanded="false" signature="2032:2101" ph="/// Пример использования подписи ... " />
+                <marker date="1508154789848" expanded="false" signature="2135:3471" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="2262:2536" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="2337:2526" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="2593:3003" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="2668:2993" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="3083:3465" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="3158:3455" ph="{...}" />
+                <marker date="1508154789848" expanded="false" signature="3498:4470" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="3551:4464" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="3966:4097" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
+                <marker date="1508154789848" expanded="true" signature="4299:4383" ph="/* Create a signature for HashValue and assign it to ... */" />
+                <marker date="1508154789848" expanded="false" signature="4506:5160" ph="{...}" />
+                <marker date="1508154789848" expanded="false" signature="4582:5154" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="4942:5032" ph="{...}" />
+                <marker date="1508154789848" expanded="true" signature="5049:5143" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PeerEntry.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PeerEntry.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="432">
               <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <marker date="1507926068372" expanded="true" signature="6:101" ph="..." />
-                <marker date="1507926068372" expanded="true" signature="131:598" ph="{...}" />
-                <marker date="1507926068372" expanded="true" signature="160:373" ph="{...}" />
-                <marker date="1507926068372" expanded="true" signature="429:596" ph="{...}" />
+                <marker date="1508153431721" expanded="false" signature="6:101" ph="..." />
+                <marker date="1508153431721" expanded="true" signature="131:375" ph="{...}" />
+                <marker date="1508153431721" expanded="true" signature="160:373" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="P2PService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../p2p.implementation/P2PService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <marker date="1508153219692" expanded="true" signature="6:148" ph="..." />
+                <marker date="1508153219692" expanded="true" signature="178:790" ph="{...}" />
+                <marker date="1508153219692" expanded="true" signature="294:787" ph="{...}" />
+                <marker date="1508153219692" expanded="true" signature="450:558" ph="{...}" />
+                <marker date="1508153219692" expanded="true" signature="591:640" ph="{...}" />
+                <marker date="1508153219692" expanded="true" signature="702:781" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -63,17 +82,18 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Block.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Block.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../p2p.implementation/P2PService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Block.cs" />
         <option value="$PROJECT_DIR$/../p2p.implementation/Class1.cs" />
-        <option value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" />
         <option value="$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs" />
+        <option value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" />
       </list>
     </option>
   </component>
@@ -83,11 +103,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
     <option name="width" value="1924" />
-    <option name="height" value="1066" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -110,6 +130,24 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Blockchain.SmartShares (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Blockchain.SmartShares (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Blockchain.ConsoleApplication" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Blockchain.SmartShares (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Blockchain.ConsoleApplication" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Blockchain.SmartShares (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Blockchain.ConsoleApplication" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assemblies" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -246,11 +284,12 @@
       <workItem from="1507878307555" duration="4946000" />
       <workItem from="1507921307631" duration="294000" />
       <workItem from="1507925611018" duration="468000" />
+      <workItem from="1508153421107" duration="1359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8441000" />
+    <option name="totallyTimeSpent" value="9800000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -262,28 +301,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42294714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42329228" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12604167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -300,32 +340,82 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2838">
+          <caret line="129" column="1" lean-forward="false" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
+          <folding>
+            <marker date="1508154789848" expanded="true" signature="6:144" ph="..." />
+            <marker date="1508154789848" expanded="true" signature="185:5162" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="214:662" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="267:656" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="290:503" ph="/* Console.WriteLine(&quot;Input the text:&quot;); ... */" />
+            <marker date="1508154789848" expanded="true" signature="694:1079" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="784:1073" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="1111:1463" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="1174:1457" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="1465:2025" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
+            <marker date="1508154789848" expanded="false" signature="2032:2101" ph="/// Пример использования подписи ... " />
+            <marker date="1508154789848" expanded="false" signature="2135:3471" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2262:2536" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2337:2526" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2593:3003" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2668:2993" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3083:3465" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3158:3455" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="3498:4470" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3551:4464" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3966:4097" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
+            <marker date="1508154789848" expanded="true" signature="4299:4383" ph="/* Create a signature for HashValue and assign it to ... */" />
+            <marker date="1508154789848" expanded="false" signature="4506:5160" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="4582:5154" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="4942:5032" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="5049:5143" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1508153431721" expanded="false" signature="6:101" ph="..." />
+            <marker date="1508153431721" expanded="true" signature="131:375" ph="{...}" />
+            <marker date="1508153431721" expanded="true" signature="160:373" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1695">
           <caret line="117" column="8" lean-forward="false" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
           <folding>
-            <marker date="1507925926216" expanded="false" signature="6:121" ph="..." />
-            <marker date="1507925926216" expanded="true" signature="162:4571" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="191:488" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="244:482" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="520:872" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="583:866" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="874:1434" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
-            <marker date="1507925926216" expanded="true" signature="1441:1510" ph="/// Пример использования подписи ... " />
-            <marker date="1507925926216" expanded="true" signature="1544:2880" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="1671:1945" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="1746:1935" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2002:2412" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2077:2402" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2492:2874" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2567:2864" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2907:3879" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2960:3873" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="3375:3506" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
-            <marker date="1507925926216" expanded="true" signature="3708:3792" ph="/* Create a signature for HashValue and assign it to ... */" />
-            <marker date="1507925926216" expanded="true" signature="3915:4569" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="3991:4563" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="4351:4441" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="4458:4552" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="6:144" ph="..." />
+            <marker date="1508154789848" expanded="true" signature="185:5162" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="214:662" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="267:656" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="290:503" ph="/* Console.WriteLine(&quot;Input the text:&quot;); ... */" />
+            <marker date="1508154789848" expanded="true" signature="694:1079" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="784:1073" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="1111:1463" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="1174:1457" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="1465:2025" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
+            <marker date="1508154789848" expanded="false" signature="2032:2101" ph="/// Пример использования подписи ... " />
+            <marker date="1508154789848" expanded="false" signature="2135:3471" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2262:2536" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2337:2526" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2593:3003" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2668:2993" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3083:3465" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3158:3455" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="3498:4470" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3551:4464" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3966:4097" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
+            <marker date="1508154789848" expanded="true" signature="4299:4383" ph="/* Create a signature for HashValue and assign it to ... */" />
+            <marker date="1508154789848" expanded="false" signature="4506:5160" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="4582:5154" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="4942:5032" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="5049:5143" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -335,10 +425,9 @@
         <state relative-caret-position="60">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
-            <marker date="1507926068372" expanded="true" signature="6:101" ph="..." />
-            <marker date="1507926068372" expanded="true" signature="131:598" ph="{...}" />
-            <marker date="1507926068372" expanded="true" signature="160:373" ph="{...}" />
-            <marker date="1507926068372" expanded="true" signature="429:596" ph="{...}" />
+            <marker date="1508153431721" expanded="false" signature="6:101" ph="..." />
+            <marker date="1508153431721" expanded="true" signature="131:375" ph="{...}" />
+            <marker date="1508153431721" expanded="true" signature="160:373" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -348,29 +437,32 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1507925926216" expanded="false" signature="6:121" ph="..." />
-            <marker date="1507925926216" expanded="true" signature="162:4571" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="191:488" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="244:482" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="520:872" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="583:866" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="874:1434" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
-            <marker date="1507925926216" expanded="true" signature="1441:1510" ph="/// Пример использования подписи ... " />
-            <marker date="1507925926216" expanded="true" signature="1544:2880" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="1671:1945" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="1746:1935" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2002:2412" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2077:2402" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2492:2874" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2567:2864" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2907:3879" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2960:3873" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="3375:3506" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
-            <marker date="1507925926216" expanded="true" signature="3708:3792" ph="/* Create a signature for HashValue and assign it to ... */" />
-            <marker date="1507925926216" expanded="true" signature="3915:4569" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="3991:4563" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="4351:4441" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="4458:4552" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="6:144" ph="..." />
+            <marker date="1508154789848" expanded="true" signature="185:5162" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="214:662" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="267:656" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="290:503" ph="/* Console.WriteLine(&quot;Input the text:&quot;); ... */" />
+            <marker date="1508154789848" expanded="true" signature="694:1079" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="784:1073" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="1111:1463" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="1174:1457" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="1465:2025" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
+            <marker date="1508154789848" expanded="false" signature="2032:2101" ph="/// Пример использования подписи ... " />
+            <marker date="1508154789848" expanded="false" signature="2135:3471" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2262:2536" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2337:2526" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2593:3003" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2668:2993" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3083:3465" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3158:3455" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="3498:4470" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3551:4464" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3966:4097" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
+            <marker date="1508154789848" expanded="true" signature="4299:4383" ph="/* Create a signature for HashValue and assign it to ... */" />
+            <marker date="1508154789848" expanded="false" signature="4506:5160" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="4582:5154" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="4942:5032" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="5049:5143" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -405,47 +497,64 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../p2p.implementation/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
+    <entry file="file://$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3000">
-          <caret line="129" column="1" lean-forward="false" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
+        <state relative-caret-position="432">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1507925926216" expanded="false" signature="6:121" ph="..." />
-            <marker date="1507925926216" expanded="true" signature="162:4571" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="191:488" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="244:482" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="520:872" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="583:866" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="874:1434" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
-            <marker date="1507925926216" expanded="true" signature="1441:1510" ph="/// Пример использования подписи ... " />
-            <marker date="1507925926216" expanded="true" signature="1544:2880" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="1671:1945" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="1746:1935" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2002:2412" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2077:2402" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2492:2874" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2567:2864" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2907:3879" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="2960:3873" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="3375:3506" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
-            <marker date="1507925926216" expanded="true" signature="3708:3792" ph="/* Create a signature for HashValue and assign it to ... */" />
-            <marker date="1507925926216" expanded="true" signature="3915:4569" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="3991:4563" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="4351:4441" ph="{...}" />
-            <marker date="1507925926216" expanded="true" signature="4458:4552" ph="{...}" />
+            <marker date="1508153431721" expanded="false" signature="6:101" ph="..." />
+            <marker date="1508153431721" expanded="true" signature="131:375" ph="{...}" />
+            <marker date="1508153431721" expanded="true" signature="160:373" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs">
+    <entry file="file://$PROJECT_DIR$/../p2p.implementation/P2PService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="173">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <marker date="1507926068372" expanded="true" signature="6:101" ph="..." />
-            <marker date="1507926068372" expanded="true" signature="131:598" ph="{...}" />
-            <marker date="1507926068372" expanded="true" signature="160:373" ph="{...}" />
-            <marker date="1507926068372" expanded="true" signature="429:596" ph="{...}" />
+            <marker date="1508153219692" expanded="true" signature="6:148" ph="..." />
+            <marker date="1508153219692" expanded="true" signature="178:790" ph="{...}" />
+            <marker date="1508153219692" expanded="true" signature="294:787" ph="{...}" />
+            <marker date="1508153219692" expanded="true" signature="450:558" ph="{...}" />
+            <marker date="1508153219692" expanded="true" signature="591:640" ph="{...}" />
+            <marker date="1508153219692" expanded="true" signature="702:781" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="30" column="57" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding>
+            <marker date="1508154789848" expanded="true" signature="6:144" ph="..." />
+            <marker date="1508154789848" expanded="true" signature="185:5162" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="214:662" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="267:656" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="290:503" ph="/* Console.WriteLine(&quot;Input the text:&quot;); ... */" />
+            <marker date="1508154789848" expanded="true" signature="694:1079" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="784:1073" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="1111:1463" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="1174:1457" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="1465:2025" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
+            <marker date="1508154789848" expanded="false" signature="2032:2101" ph="/// Пример использования подписи ... " />
+            <marker date="1508154789848" expanded="false" signature="2135:3471" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2262:2536" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2337:2526" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2593:3003" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="2668:2993" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3083:3465" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3158:3455" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="3498:4470" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3551:4464" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="3966:4097" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
+            <marker date="1508154789848" expanded="true" signature="4299:4383" ph="/* Create a signature for HashValue and assign it to ... */" />
+            <marker date="1508154789848" expanded="false" signature="4506:5160" ph="{...}" />
+            <marker date="1508154789848" expanded="false" signature="4582:5154" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="4942:5032" ph="{...}" />
+            <marker date="1508154789848" expanded="true" signature="5049:5143" ph="{...}" />
           </folding>
         </state>
       </provider>
