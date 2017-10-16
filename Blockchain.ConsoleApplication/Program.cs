@@ -111,20 +111,20 @@ namespace Blockchain.ConsoleApplication
     {
         public void VerViod(byte[] HashValue, byte[] SignedHashValue)
         {
-        RSACryptoServiceProvider RSA = new RSACryptoServiceProvider();
-        RSA.ImportParameters(RSAKeyInfo);
-        RSAPKCS1SignatureDeformatter RSADeformatter = new RSAPKCS1SignatureDeformatter(RSA);
-        RSADeformatter.SetHashAlgorithm("SHA1");
-        
-        if (RSADeformatter.VerifySignature(HashValue, SignedHashValue))
-        {
-            Console.WriteLine("The signature is valid.");
-        }
-        else
-        {
-        Console.WriteLine("The signature is not valid.");
-        }
-        
+            RSACryptoServiceProvider RSA = new RSACryptoServiceProvider();
+            //RSA.ImportParameters(RSAKeyInfo);
+            RSAPKCS1SignatureDeformatter RSADeformatter = new RSAPKCS1SignatureDeformatter(RSA);
+            RSADeformatter.SetHashAlgorithm("SHA1");
+
+            if (RSADeformatter.VerifySignature(HashValue, SignedHashValue))
+            {
+                Console.WriteLine("The signature is valid.");
+            }
+            else
+            {
+                Console.WriteLine("The signature is not valid.");
+            }
+
         }
     }
-
+}
