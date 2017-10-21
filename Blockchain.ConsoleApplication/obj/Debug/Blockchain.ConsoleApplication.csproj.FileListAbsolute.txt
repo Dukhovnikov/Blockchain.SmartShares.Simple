@@ -4,3 +4,14 @@ E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\obj\Debug\
 E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\obj\Debug\Blockchain.ConsoleApplication.csproj.CoreCompileInputs.cache
 E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\obj\Debug\Blockchain.ConsoleApplication.exe
 E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\obj\Debug\Blockchain.ConsoleApplication.pdb
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\obj\Debug\Blockchain.ConsoleApplication.csprojResolveAssemblyReference.cache
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\obj\Debug\Blockchain.ConsoleApplication.csproj.CoreCompileInputs.cache
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\obj\Debug\Blockchain.ConsoleApplication.exe
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\obj\Debug\Blockchain.ConsoleApplication.pdb
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\Blockchain.ConsoleApplication.exe.config
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\Blockchain.ConsoleApplication.exe
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\Blockchain.ConsoleApplication.pdb
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\Blockchain.SmartShares.dll
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\Newtonsoft.Json.dll
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\Blockchain.SmartShares.pdb
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\Newtonsoft.Json.xml

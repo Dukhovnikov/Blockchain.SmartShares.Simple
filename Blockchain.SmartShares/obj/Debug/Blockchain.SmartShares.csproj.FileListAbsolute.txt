@@ -1,0 +1,6 @@
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares\bin\Debug\Blockchain.SmartShares.dll
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares\bin\Debug\Blockchain.SmartShares.pdb
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares\obj\Debug\Blockchain.SmartShares.csprojResolveAssemblyReference.cache
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares\obj\Debug\Blockchain.SmartShares.csproj.CoreCompileInputs.cache
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares\obj\Debug\Blockchain.SmartShares.dll
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares\obj\Debug\Blockchain.SmartShares.pdb
