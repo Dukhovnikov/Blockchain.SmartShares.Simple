@@ -4,10 +4,10 @@ using Newtonsoft.Json;
 
 namespace Blockchain.SmartShares
 {
-    [JsonObject]
+    //[JsonObject]
     public class Hash
     {
-        [JsonProperty("hash")]
+        //[JsonProperty("hash")]
         public byte[] hash { get; }
 
         #region Constructors

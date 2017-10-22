@@ -6,3 +6,11 @@ D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares\obj\Debug\B
 D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares\obj\Debug\Blockchain.SmartShares.pdb
 D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares\bin\Debug\Newtonsoft.Json.dll
 D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares\bin\Debug\Newtonsoft.Json.xml
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.SmartShares\bin\Debug\Blockchain.SmartShares.dll
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.SmartShares\bin\Debug\Blockchain.SmartShares.pdb
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.SmartShares\bin\Debug\Newtonsoft.Json.dll
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.SmartShares\bin\Debug\Newtonsoft.Json.xml
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.SmartShares\obj\Debug\Blockchain.SmartShares.csprojResolveAssemblyReference.cache
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.SmartShares\obj\Debug\Blockchain.SmartShares.csproj.CoreCompileInputs.cache
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.SmartShares\obj\Debug\Blockchain.SmartShares.dll
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.SmartShares\obj\Debug\Blockchain.SmartShares.pdb
