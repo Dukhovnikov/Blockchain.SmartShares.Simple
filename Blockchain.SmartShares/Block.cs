@@ -12,15 +12,18 @@ namespace Blockchain.SmartShares
         [JsonProperty("timestamp")]
         public readonly DateTime Timestamp;
         [JsonProperty("hash")]
-        public readonly Hash Hash;
+        public readonly byte[] Hash;
         [JsonProperty("previousHash")]
-        public readonly Hash PreviuosHash;
+        public readonly byte[] PreviuosHash;
 
-        public Block(int previousId, DateTime currentDateTime, Hash previuosHash)
+        public Block(int previousId, DateTime currentDateTime, byte[] previuosHash)
         {
             Id = previousId;
             Timestamp = currentDateTime;
-            Hash = new Hash(previousId + currentDateTime.ToString(CultureInfo.InvariantCulture) + previuosHash);
+            //Hash = new Hash(previousId + currentDateTime.ToString(CultureInfo.InvariantCulture) + previuosHash);
+            Hash = StaticHash.ComputeSha256FromString(previousId +
+                                                      currentDateTime.ToString(CultureInfo.InvariantCulture) +
+                                                      previuosHash);
             PreviuosHash = previuosHash;
         }
     }

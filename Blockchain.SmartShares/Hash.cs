@@ -1,16 +1,22 @@
-﻿using System.Security.Cryptography;
+﻿using System;
+using System.Security.Cryptography;
 using System.Text;
 using Newtonsoft.Json;
 
 namespace Blockchain.SmartShares
 {
-    //[JsonObject]
+    [JsonObject]
     public class Hash
     {
         //[JsonProperty("hash")]
-        public byte[] hash { get; }
+        public readonly byte[] hash; //{ get; }
 
         #region Constructors
+
+        public Hash()
+        {
+        }
+
         public Hash(byte[] inputBytes)
         {
             hash = ComputeSha256(inputBytes);
@@ -43,6 +49,23 @@ namespace Blockchain.SmartShares
             return HexConvert.FromBytes(hash);
         }
 
-        #endregion     
+        #endregion  
+        
+        public class HashConverter : JsonConverter
+        {
+            public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+            {
+                throw new NotImplementedException();
+            }
+
+            public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+            {
+                
+                throw new NotImplementedException();
+            }
+
+            public override bool CanConvert(Type objectType) => 
+                objectType == typeof(byte[]);
+        }
     }
 }

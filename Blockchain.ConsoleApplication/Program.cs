@@ -15,7 +15,7 @@ namespace Blockchain.ConsoleApplication
     {        
         public static void Main(string[] args)
         {
-            var block = new Block(1, DateTime.Now, new Hash("testhash") );
+            var block = new Block(1, DateTime.Now, StaticHash.ComputeSha256FromString("testhash") );
 
             var jsonBlock = JsonConvert.SerializeObject(block);
             Console.WriteLine("Json serialazed: {0}", jsonBlock);

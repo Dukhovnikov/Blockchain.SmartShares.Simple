@@ -16,8 +16,8 @@ namespace Blockchain.ConsoleApplication
         {
             const int port = 8888; // порт для прослушивания подключений
             
-            var testBlock = new Block(1, DateTime.Now, new Hash("testHash"));
-            var jsonBlock = JsonConvert.SerializeObject(testBlock);
+            //var testBlock = new Block(1, DateTime.Now, new Hash("testHash"));
+            //var jsonBlock = JsonConvert.SerializeObject(testBlock);
             
             TcpListener server = null;
             try
@@ -42,10 +42,10 @@ namespace Blockchain.ConsoleApplication
                     // сообщение для отправки клиенту
                     //string response = "Пшел нахуй";
                     // преобразуем сообщение в массив байтов
-                    byte[] data = Encoding.UTF8.GetBytes(jsonBlock);
+                    //byte[] data = Encoding.UTF8.GetBytes(jsonBlock);
  
                     // отправка сообщения
-                    stream.Write(data, 0, data.Length);
+                    //stream.Write(data, 0, data.Length);
                     //Console.WriteLine("Отправлено сообщение: {0}", response);
                     // закрываем подключение
                     client.Close();
