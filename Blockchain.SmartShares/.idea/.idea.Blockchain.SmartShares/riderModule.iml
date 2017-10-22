@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/../../../Blockchain.ConsoleApplication" />
     <content url="file://$MODULE_DIR$/../.." />
+    <content url="file://$MODULE_DIR$/../../../TestProject.ConsoleApplication" />
     <content url="file://$MODULE_DIR$/../../../p2p.implementation" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

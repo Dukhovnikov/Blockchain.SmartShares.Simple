@@ -1,0 +1,10 @@
+D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\bin\Debug\TestProject.ConsoleApplication.exe
+D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\bin\Debug\TestProject.ConsoleApplication.pdb
+D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\bin\Debug\Blockchain.SmartShares.dll
+D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\bin\Debug\Newtonsoft.Json.dll
+D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\bin\Debug\Blockchain.SmartShares.pdb
+D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\bin\Debug\Newtonsoft.Json.xml
+D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\obj\Debug\TestProject.ConsoleApplication.csprojResolveAssemblyReference.cache
+D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\obj\Debug\TestProject.ConsoleApplication.csproj.CoreCompileInputs.cache
+D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\obj\Debug\TestProject.ConsoleApplication.exe
+D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\obj\Debug\TestProject.ConsoleApplication.pdb

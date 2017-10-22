@@ -11,7 +11,7 @@ namespace Blockchain.SmartShares
         public byte[] hash { get; }
 
         #region Constructors
-            public Hash(byte[] inputBytes)
+        public Hash(byte[] inputBytes)
         {
             hash = ComputeSha256(inputBytes);
         }
