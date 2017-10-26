@@ -1,0 +1,10 @@
+D:\Repositories\Blockchain.SmartShares.Simple\p2p.implementation\bin\Debug\p2p.implementation.dll
+D:\Repositories\Blockchain.SmartShares.Simple\p2p.implementation\bin\Debug\p2p.implementation.pdb
+D:\Repositories\Blockchain.SmartShares.Simple\p2p.implementation\bin\Debug\MessagePack.dll
+D:\Repositories\Blockchain.SmartShares.Simple\p2p.implementation\bin\Debug\Newtonsoft.Json.dll
+D:\Repositories\Blockchain.SmartShares.Simple\p2p.implementation\bin\Debug\MessagePack.xml
+D:\Repositories\Blockchain.SmartShares.Simple\p2p.implementation\bin\Debug\Newtonsoft.Json.xml
+D:\Repositories\Blockchain.SmartShares.Simple\p2p.implementation\obj\Debug\p2p.implementation.csprojResolveAssemblyReference.cache
+D:\Repositories\Blockchain.SmartShares.Simple\p2p.implementation\obj\Debug\p2p.implementation.csproj.CoreCompileInputs.cache
+D:\Repositories\Blockchain.SmartShares.Simple\p2p.implementation\obj\Debug\p2p.implementation.dll
+D:\Repositories\Blockchain.SmartShares.Simple\p2p.implementation\obj\Debug\p2p.implementation.pdb

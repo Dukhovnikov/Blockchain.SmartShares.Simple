@@ -14,3 +14,7 @@ E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.SmartShares\obj\Debug\Blockch
 E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.SmartShares\obj\Debug\Blockchain.SmartShares.csproj.CoreCompileInputs.cache
 E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.SmartShares\obj\Debug\Blockchain.SmartShares.dll
 E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.SmartShares\obj\Debug\Blockchain.SmartShares.pdb
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares\bin\Debug\MessagePack.dll
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares\bin\Debug\MessagePack.xml
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares\bin\Debug\System.Threading.Tasks.Extensions.xml

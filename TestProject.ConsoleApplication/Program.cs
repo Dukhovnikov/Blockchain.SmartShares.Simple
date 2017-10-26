@@ -5,22 +5,35 @@ using System.Text;
 using System.Threading;
 using Blockchain.ConsoleApplication;
 using Blockchain.SmartShares;
+using MessagePack;
 using Newtonsoft.Json;
+using p2p.implementation;
 
 namespace TestProject.ConsoleApplication
 {
-    /// <summary>
-    /// Client class
-    /// </summary>
-    internal class Program
-    {
-        private const int port = 8888;
-        private const string server = "127.0.0.1";
-        
+    internal static class Program
+    {        
         public static void Main(string[] args)
         {
-            
-            try
+            //var oldBlock = new Block(0, DateTime.Now, StaticHash.ComputeSha256FromString("testhash"));
+            var oldBlock = new Block(0, DateTime.Now, new Hash("testhash"));
+
+            var byteBlock = MessagePackSerializer.Serialize(oldBlock);
+            var desBlock = MessagePackSerializer.Deserialize<Block>(byteBlock);
+
+            Console.ReadKey();
+
+        }
+    }
+}
+
+
+
+#region Trash was created
+/*private const int port = 8888;
+private const string server = "127.0.0.1";*/
+
+/*            try
             {
                 TcpClient client = new TcpClient();
                 client.Connect(server, port);
@@ -39,7 +52,7 @@ namespace TestProject.ConsoleApplication
                 Console.WriteLine("Полученные данные:");
                 Console.WriteLine(response.ToString());
 
-                var transiverBlock = JsonConvert.DeserializeObject<Block>(response.ToString());
+                var transiverBlock = JsonConvert.DeserializeObject<MPBlock>(response.ToString());
                 // Закрываем потоки
                 stream.Close();
                 client.Close();
@@ -54,7 +67,7 @@ namespace TestProject.ConsoleApplication
             }
  
             Console.WriteLine("Запрос завершен...");
-            Console.Read();
+            Console.Read();*/
             
 /*            var testBlock = new Block(1, DateTime.Now, new Hash("testHash"));
             string jsonBlock = JsonConvert.SerializeObject(testBlock);
@@ -75,8 +88,4 @@ namespace TestProject.ConsoleApplication
             peer.SendMessage(Encoding.UTF8.GetBytes(jsonBlock));
 
             Console.ReadKey();*/
-            
-            
-        }
-    }
-}
+#endregion

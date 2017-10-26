@@ -34,6 +34,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MessagePack, Version=1.7.2.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be">
+      <HintPath>..\Blockchain.SmartShares\packages\MessagePack.1.7.2\lib\net47\MessagePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\Blockchain.SmartShares\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -43,10 +49,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Block.cs" />
+    <Compile Include="Hash.cs" />
+    <Compile Include="HexConvert.cs" />
     <Compile Include="IP2PService.cs" />
     <Compile Include="P2PService.cs" />
     <Compile Include="PeerEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticHash.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
