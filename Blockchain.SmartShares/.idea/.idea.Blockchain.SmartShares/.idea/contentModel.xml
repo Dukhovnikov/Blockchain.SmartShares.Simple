@@ -6,7 +6,9 @@
       <e p="app.config" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Blockchain.ConsoleApplication.csproj" t="IncludeRecursive" />
+      <e p="CoinPocket.cs" t="Include" />
       <e p="Connecter.cs" t="Include" />
+      <e p="ConsoleWorker.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages.config" t="Include" />
       <e p="Program.cs" t="Include" />
@@ -21,8 +23,11 @@
       <e p="Blockchain.cs" t="Include" />
       <e p="Blockchain.SmartShares.csproj" t="IncludeRecursive" />
       <e p="Blockchain.SmartShares.sln" t="IncludeFlat" />
+      <e p="BlockchainUtil.cs" t="Include" />
       <e p="EccService.cs" t="Include" />
+      <e p="Genesis.cs" t="Include" />
       <e p="Hash.cs" t="Include" />
+      <e p="HexConvert.cs" t="Include" />
       <e p="KeyPair.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
@@ -30,6 +35,7 @@
       <e p="Properties" t="Include">
         <e p="AssemblyInfo.cs" t="Include" />
       </e>
+      <e p="Transaction.cs" t="Include" />
     </e>
     <e p="D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.SmartShares.UnitTests" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />
@@ -43,19 +49,12 @@
     </e>
     <e p="D:\Repositories\Blockchain.SmartShares.Simple\p2p.implementation" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />
-      <e p="Block.cs" t="Include" />
-      <e p="Hash.cs" t="Include" />
-      <e p="HexConvert.cs" t="Include" />
-      <e p="IP2PService.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="p2p.implementation.csproj" t="IncludeRecursive" />
-      <e p="P2PService.cs" t="Include" />
       <e p="packages.config" t="Include" />
-      <e p="PeerEntry.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="AssemblyInfo.cs" t="Include" />
       </e>
-      <e p="StaticHash.cs" t="Include" />
     </e>
     <e p="D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />

@@ -20,3 +20,7 @@ E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\
 E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\Newtonsoft.Json.dll
 E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\Blockchain.SmartShares.pdb
 E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\Newtonsoft.Json.xml
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\MessagePack.dll
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\MessagePack.xml
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\System.Threading.Tasks.Extensions.xml

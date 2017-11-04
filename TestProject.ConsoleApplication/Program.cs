@@ -1,28 +1,37 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
+using System.Windows.Forms;
 using Blockchain.ConsoleApplication;
 using Blockchain.SmartShares;
 using MessagePack;
 using Newtonsoft.Json;
-using p2p.implementation;
 
 namespace TestProject.ConsoleApplication
 {
     internal static class Program
-    {        
+    {
+        [STAThread]
         public static void Main(string[] args)
         {
-            //var oldBlock = new Block(0, DateTime.Now, StaticHash.ComputeSha256FromString("testhash"));
-            var oldBlock = new Block(0, DateTime.Now, new Hash("testhash"));
+            var openFileDialog = new OpenFileDialog()
+            {
+                Filter = "Text files(*.txt)|*.txt",
+                Title = "Choose file of kay pair"
+            };
 
-            var byteBlock = MessagePackSerializer.Serialize(oldBlock);
-            var desBlock = MessagePackSerializer.Deserialize<Block>(byteBlock);
+            if (openFileDialog.ShowDialog() == DialogResult.Cancel) 
+                throw new InvalidDataException("Collapsed keypair.");
+
+            var path = openFileDialog.FileName;
+            var keys = KeyPair.LoadFrom(path);
+            
+            Console.Write("Hello! It's your public key: {0}", HexConvert.FromBytes(keys.PublicKey));
 
             Console.ReadKey();
-
         }
     }
 }

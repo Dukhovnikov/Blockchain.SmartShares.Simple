@@ -10,5 +10,5 @@ D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\bin
 D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\bin\Debug\System.Threading.Tasks.Extensions.dll
 D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\bin\Debug\MessagePack.xml
 D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\bin\Debug\p2p.implementation.dll
-D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\bin\Debug\p2p.implementation.pdb
+D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\bin\Debug\Blockchain.SmartShares.dll
+D:\Repositories\Blockchain.SmartShares.Simple\TestProject.ConsoleApplication\bin\Debug\Blockchain.SmartShares.pdb

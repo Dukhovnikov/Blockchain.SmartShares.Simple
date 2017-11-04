@@ -44,6 +44,7 @@
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
       <HintPath>..\Blockchain.SmartShares\packages\System.Threading.Tasks.Extensions.4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
@@ -58,9 +59,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\p2p.implementation\p2p.implementation.csproj">
-      <Project>{40649f04-5642-4e06-93be-148a92c142f2}</Project>
-      <Name>p2p.implementation</Name>
+    <ProjectReference Include="..\Blockchain.SmartShares\Blockchain.SmartShares.csproj">
+      <Project>{c146be58-f118-4ec3-b540-6d984d7777fe}</Project>
+      <Name>Blockchain.SmartShares</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

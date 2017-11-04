@@ -49,14 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Block.cs" />
-    <Compile Include="Hash.cs" />
-    <Compile Include="HexConvert.cs" />
-    <Compile Include="IP2PService.cs" />
-    <Compile Include="P2PService.cs" />
-    <Compile Include="PeerEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StaticHash.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

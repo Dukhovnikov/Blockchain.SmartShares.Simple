@@ -71,16 +71,17 @@ namespace Blockchain.SmartShares
         {
             return MessagePackSerializer.Serialize(
                 new FormattableEcPoint {X = point.X, Y = point.Y});
-        }
+        }        
 
         private static ECPoint ToEcPoint(byte[] bytes)
         {
             var ecPoint = MessagePackSerializer.Deserialize<FormattableEcPoint>(bytes);
-            return new ECPoint() {X = ecPoint.X, Y = ecPoint.Y};
-        }
+            return new ECPoint {X = ecPoint.X, Y = ecPoint.Y};
+        }      
         
         [MessagePackObject]
-        private sealed class FormattableEcPoint
+        // ReSharper disable once MemberCanBePrivate.Global
+        public sealed class FormattableEcPoint
         {
             [Key(0)]
             public byte[] X { get; set; }
