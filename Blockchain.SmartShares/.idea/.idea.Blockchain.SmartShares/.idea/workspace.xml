@@ -11,39 +11,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+            <state relative-caret-position="330">
+              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding>
-                <marker date="1509634922963" expanded="false" signature="6:287" ph="..." />
-                <marker date="1509634922963" expanded="true" signature="328:2077" ph="{...}" />
-                <marker date="1509634922963" expanded="true" signature="364:2075" ph="{...}" />
-                <marker date="1509634922963" expanded="true" signature="444:1116" ph="{...}" />
-                <marker date="1509634922963" expanded="true" signature="521:638" ph="{...}" />
-                <marker date="1509634922963" expanded="true" signature="931:1005" ph="{...}" />
-                <marker date="1509634922963" expanded="false" signature="1163:1400" ph="{...}" />
-                <marker date="1509634922963" expanded="false" signature="1295:1389" ph="{...}" />
-                <marker date="1509634922963" expanded="false" signature="1482:1620" ph="{...}" />
-                <marker date="1509634922963" expanded="false" signature="1692:1802" ph="{...}" />
-                <marker date="1509634922963" expanded="false" signature="1861:1936" ph="{...}" />
-                <marker date="1509634922963" expanded="false" signature="2007:2069" ph="{...}" />
+                <marker date="1510012366061" expanded="false" signature="6:287" ph="..." />
+                <marker date="1510012366061" expanded="true" signature="328:1498" ph="{...}" />
+                <marker date="1510012366061" expanded="true" signature="364:1496" ph="{...}" />
+                <marker date="1510012366061" expanded="true" signature="444:537" ph="{...}" />
+                <marker date="1510012366061" expanded="true" signature="584:821" ph="{...}" />
+                <marker date="1510012366061" expanded="true" signature="716:810" ph="{...}" />
+                <marker date="1510012366061" expanded="true" signature="903:1041" ph="{...}" />
+                <marker date="1510012366061" expanded="true" signature="1113:1223" ph="{...}" />
+                <marker date="1510012366061" expanded="true" signature="1282:1357" ph="{...}" />
+                <marker date="1510012366061" expanded="true" signature="1428:1490" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsoleWorker.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/ConsoleWorker.cs">
+      <file leaf-file-name="FileManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OtherLogics/FileManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+            <state relative-caret-position="390">
+              <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
               <folding>
-                <marker date="1509635059801" expanded="true" signature="6:43" ph="..." />
-                <marker date="1509635059801" expanded="true" signature="84:484" ph="{...}" />
-                <marker date="1509635059801" expanded="true" signature="124:482" ph="{...}" />
-                <marker date="1509635059801" expanded="true" signature="196:476" ph="{...}" />
+                <marker date="1510012860888" expanded="false" signature="6:122" ph="..." />
+                <marker date="1510012860888" expanded="true" signature="163:1734" ph="{...}" />
+                <marker date="1510012860888" expanded="true" signature="201:1732" ph="{...}" />
+                <marker date="1510012860888" expanded="true" signature="248:333" ph="{...}" />
+                <marker date="1510012860888" expanded="true" signature="488:555" ph="{...}" />
+                <marker date="1510012860888" expanded="true" signature="676:982" ph="{...}" />
+                <marker date="1510012860888" expanded="true" signature="829:914" ph="{...}" />
+                <marker date="1510012860888" expanded="false" signature="1036:1708" ph="{...}" />
+                <marker date="1510012860888" expanded="true" signature="1113:1230" ph="{...}" />
+                <marker date="1510012860888" expanded="true" signature="1523:1597" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blockchain.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blockchain.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <marker date="1510000196801" expanded="true" signature="67:226" ph="{...}" />
+                <marker date="1510000196801" expanded="true" signature="97:224" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Genesis.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Genesis.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+              <folding>
+                <marker date="1510000196841" expanded="true" signature="6:88" ph="..." />
+                <marker date="1510000196841" expanded="true" signature="122:1276" ph="{...}" />
+                <marker date="1510000196841" expanded="true" signature="149:1274" ph="{...}" />
+                <marker date="1510000196841" expanded="true" signature="415:1268" ph="{...}" />
+                <marker date="1510000196841" expanded="true" signature="530:649" ph="{...}" />
+                <marker date="1510000196841" expanded="true" signature="707:1223" ph="{...}" />
+                <marker date="1510000196841" expanded="true" signature="912:1209" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -52,18 +87,19 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../TestProject.ConsoleApplication/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="482">
+              <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding>
-                <marker date="1509633494246" expanded="false" signature="6:270" ph="..." />
-                <marker date="1509633494246" expanded="true" signature="312:1016" ph="{...}" />
-                <marker date="1509633494246" expanded="true" signature="348:1014" ph="{...}" />
-                <marker date="1509633494246" expanded="true" signature="421:1008" ph="{...}" />
-                <marker date="1509633494246" expanded="true" signature="498:615" ph="{...}" />
-                <marker date="1509633494246" expanded="true" signature="1020:3249" ph="Trash was created" />
-                <marker date="1509633494246" expanded="true" signature="1046:1123" ph="/* private const int port = 8888; ... */" />
-                <marker date="1509633494246" expanded="true" signature="1125:2408" ph="/* try ... */" />
-                <marker date="1509633494246" expanded="true" signature="2422:3238" ph="/* var testBlock = new Block(1, DateTime.Now, new Hash(&quot;testHash&quot;)); ... */" />
+                <marker date="1510011810483" expanded="true" signature="6:270" ph="..." />
+                <marker date="1510011810483" expanded="true" signature="313:696" ph="{...}" />
+                <marker date="1510011810483" expanded="true" signature="349:693" ph="{...}" />
+                <marker date="1510011810483" expanded="true" signature="422:687" ph="{...}" />
+                <marker date="1510011810483" expanded="true" signature="514:676" ph="{...}" />
+                <marker date="1510011810483" expanded="true" signature="589:662" ph="{...}" />
+                <marker date="1510011810483" expanded="false" signature="700:2929" ph="Trash was created" />
+                <marker date="1510011810483" expanded="true" signature="726:803" ph="/* private const int port = 8888; ... */" />
+                <marker date="1510011810483" expanded="true" signature="805:2088" ph="/* try ... */" />
+                <marker date="1510011810483" expanded="true" signature="2102:2918" ph="/* var testBlock = new Block(1, DateTime.Now, new Hash(&quot;testHash&quot;)); ... */" />
               </folding>
             </state>
           </provider>
@@ -72,34 +108,29 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Transaction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAA6AA8F-7BAA-45E2-ADFF-D559A85706C9/41/7f79a6bf/DynamicObjectResolver.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://D:/YandexDisk/1 семестр/Красильников, Герасивом, Кузьмин (Сетевое Web-программирование)/Code/MinChain-master/MinChain-master/MinChain/Util/EccService.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../TestProject.ConsoleApplication/Connecter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/EccServiceTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../TestProject.ConsoleApplication/packages.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAA6AA8F-7BAA-45E2-ADFF-D559A85706C9/fd/1a7be435/IFormatterResolver.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/packages.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Blockchain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Block.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/KeyPair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OtherLogics/FileManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/EccServiceTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../TestProject.ConsoleApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAA6AA8F-7BAA-45E2-ADFF-D559A85706C9/02/b532086c/IMessagePackFormatter`1.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/EccService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hash.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/packages.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAA6AA8F-7BAA-45E2-ADFF-D559A85706C9/17/e68ca05f/IMessagePackFormatter.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../p2p.implementation/packages.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Genesis.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://D:/YandexDisk/Self-development/In a nutshell/In a nutshell.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../TestProject.ConsoleApplication/Connecter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/packages.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/ConsoleWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hash.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HexConvert.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/CoinPocket.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Connecter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../TestProject.ConsoleApplication/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../p2p.implementation/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BlockchainUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Blockchain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Connecter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Genesis.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KeyPair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EccService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Transaction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OtherLogics/ConsoleWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OtherLogics/CoinPocket.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -132,9 +163,10 @@
         <option value="$PROJECT_DIR$/HexConvert.cs" />
         <option value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/CoinPocket.cs" />
         <option value="$PROJECT_DIR$/../p2p.implementation/ConsoleWorker.cs" />
+        <option value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/ConsoleWorker.cs" />
         <option value="$PROJECT_DIR$/../TestProject.ConsoleApplication/Program.cs" />
         <option value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" />
-        <option value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/ConsoleWorker.cs" />
+        <option value="$PROJECT_DIR$/OtherLogics/FileManager.cs" />
       </list>
     </option>
   </component>
@@ -165,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -185,7 +218,32 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Blockchain.SmartShares (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Blockchain.SmartShares" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="OtherLogics" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Blockchain.SmartShares (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="TestProject.ConsoleApplication" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Blockchain.SmartShares (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TestProject.ConsoleApplication" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Blockchain.SmartShares (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TestProject.ConsoleApplication" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Projects" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Blockchain.SmartShares (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TestProject.ConsoleApplication" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Properties" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -193,7 +251,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,11 +402,12 @@
       <workItem from="1509057885178" duration="2862000" />
       <workItem from="1509140293854" duration="6044000" />
       <workItem from="1509627796053" duration="5917000" />
+      <workItem from="1510008273075" duration="3840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72323000" />
+    <option name="totallyTimeSpent" value="76163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,28 +419,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4207765" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4207765" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44176286" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44176286" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -425,20 +483,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../p2p.implementation/P2PService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../p2p.implementation/P2PService.cs" />
     <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2838">
@@ -446,13 +491,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs" />
     <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1695">
@@ -460,13 +499,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs" />
     <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -481,13 +514,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../p2p.implementation/Block.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../p2p.implementation/Block.cs" />
     <entry file="file://$PROJECT_DIR$/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/Blockchain.SmartShares.csproj">
       <provider selected="true" editor-type-id="text-editor">
@@ -508,56 +535,14 @@
     <entry file="file://E:/YandexDisk/Self-development/In a nutshell/In a nutshell.cs" />
     <entry file="file://$PROJECT_DIR$/../TestProject.ConsoleApplication/MPBlock.cs" />
     <entry file="file://$PROJECT_DIR$/../TestProject.ConsoleApplication/MPHash.cs" />
-    <entry file="file://D:/YandexDisk/Self-development/In a nutshell/In a nutshell.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1914">
-          <caret line="141" column="13" lean-forward="true" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../p2p.implementation/StaticHash.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/YandexDisk/Self-development/In a nutshell/In a nutshell.cs" />
+    <entry file="file://$PROJECT_DIR$/../p2p.implementation/StaticHash.cs" />
     <entry file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/Class1.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAA6AA8F-7BAA-45E2-ADFF-D559A85706C9/17/e68ca05f/IMessagePackFormatter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAA6AA8F-7BAA-45E2-ADFF-D559A85706C9/02/b532086c/IMessagePackFormatter`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAA6AA8F-7BAA-45E2-ADFF-D559A85706C9/fd/1a7be435/IFormatterResolver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAA6AA8F-7BAA-45E2-ADFF-D559A85706C9/41/7f79a6bf/DynamicObjectResolver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="14" column="59" lean-forward="false" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/YandexDisk/1 семестр/Красильников, Герасивом, Кузьмин (Сетевое Web-программирование)/Code/MinChain-master/MinChain-master/MinChain/Util/EccService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAA6AA8F-7BAA-45E2-ADFF-D559A85706C9/17/e68ca05f/IMessagePackFormatter.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAA6AA8F-7BAA-45E2-ADFF-D559A85706C9/02/b532086c/IMessagePackFormatter`1.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAA6AA8F-7BAA-45E2-ADFF-D559A85706C9/fd/1a7be435/IFormatterResolver.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AAA6AA8F-7BAA-45E2-ADFF-D559A85706C9/41/7f79a6bf/DynamicObjectResolver.cs" />
+    <entry file="file://D:/YandexDisk/1 семестр/Красильников, Герасивом, Кузьмин (Сетевое Web-программирование)/Code/MinChain-master/MinChain-master/MinChain/Util/EccService.cs" />
     <entry file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/EccServiceTests.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -600,97 +585,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../p2p.implementation/Hash.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Connecter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508603774322" expanded="false" signature="6:76" ph="..." />
-            <marker date="1508603774322" expanded="true" signature="146:2104" ph="{...}" />
-            <marker date="1508603774322" expanded="true" signature="442:592" ph="{...}" />
-            <marker date="1508603774322" expanded="true" signature="654:1314" ph="{...}" />
-            <marker date="1508603774322" expanded="true" signature="766:1116" ph="{...}" />
-            <marker date="1508603774322" expanded="true" signature="808:1102" ph="{...}" />
-            <marker date="1508603774322" expanded="true" signature="847:977" ph="/* var message = Console.ReadLine(); // сообщение для отправки ... */" />
-            <marker date="1508603774322" expanded="true" signature="1149:1224" ph="{...}" />
-            <marker date="1508603774322" expanded="true" signature="1244:1304" ph="{...}" />
-            <marker date="1508603774322" expanded="true" signature="1359:2098" ph="{...}" />
-            <marker date="1508603774322" expanded="true" signature="1590:1899" ph="{...}" />
-            <marker date="1508603774322" expanded="true" signature="1632:1885" ph="{...}" />
-            <marker date="1508603774322" expanded="true" signature="1931:2006" ph="{...}" />
-            <marker date="1508603774322" expanded="true" signature="2026:2088" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <marker date="1508965237330" expanded="true" signature="6:154" ph="..." />
-            <marker date="1508965237330" expanded="true" signature="195:7379" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="224:7377" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="265:2011" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="374:511" ph="/* var testBlock = new Block(1, DateTime.Now, new Hash(&quot;testHash&quot;)); ... */" />
-            <marker date="1508965237330" expanded="true" signature="579:1776" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="821:1762" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="1262:1708" ph="/* сообщение для отправки клиенту ... */" />
-            <marker date="1508965237330" expanded="true" signature="1808:1882" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="1902:2001" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="2029:2845" ph="/* var testBlock = new Block(1, DateTime.Now, new Hash(&quot;testHash&quot;)); ... */" />
-            <marker date="1508965237330" expanded="true" signature="2872:3291" ph="/* public static class KeyGen ... */" />
-            <marker date="1508965237330" expanded="true" signature="3323:3675" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="3386:3669" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="3677:4237" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
-            <marker date="1508965237330" expanded="true" signature="4243:4312" ph="/// Пример использования подписи ... " />
-            <marker date="1508965237330" expanded="true" signature="4346:5682" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="4473:4747" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="4548:4737" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="4804:5214" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="4879:5204" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="5294:5676" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="5369:5666" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="5709:6681" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="5762:6675" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="6177:6308" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
-            <marker date="1508965237330" expanded="true" signature="6510:6594" ph="/* Create a signature for HashValue and assign it to ... */" />
-            <marker date="1508965237330" expanded="true" signature="6717:7371" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="6793:7365" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="7153:7243" ph="{...}" />
-            <marker date="1508965237330" expanded="true" signature="7260:7354" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../p2p.implementation/Hash.cs" />
     <entry file="file://$PROJECT_DIR$/Block.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
           <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <marker date="1509144339492" expanded="false" signature="6:96" ph="..." />
-            <marker date="1509144339492" expanded="true" signature="130:931" ph="{...}" />
-            <marker date="1509144339492" expanded="true" signature="179:929" ph="{...}" />
-            <marker date="1509144339492" expanded="true" signature="727:922" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blockchain.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-          <folding>
-            <marker date="1509145989051" expanded="true" signature="67:226" ph="{...}" />
-            <marker date="1509145989051" expanded="true" signature="97:224" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,12 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <marker date="1509628781825" expanded="true" signature="6:39" ph="..." />
-            <marker date="1509628781825" expanded="true" signature="73:668" ph="{...}" />
-            <marker date="1509628781825" expanded="true" signature="100:666" ph="{...}" />
-            <marker date="1509628781825" expanded="true" signature="321:660" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,14 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="52" />
-          <folding>
-            <marker date="1508969944529" expanded="false" signature="6:54" ph="..." />
-            <marker date="1508969944529" expanded="true" signature="88:604" ph="{...}" />
-            <marker date="1508969944529" expanded="true" signature="119:602" ph="{...}" />
-            <marker date="1508969944529" expanded="true" signature="182:301" ph="{...}" />
-            <marker date="1508969944529" expanded="true" signature="383:595" ph="{...}" />
-            <marker date="1508969944529" expanded="true" signature="442:585" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,79 +611,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-          <folding>
-            <marker date="1509633494307" expanded="true" signature="6:66" ph="..." />
-            <marker date="1509633494307" expanded="true" signature="100:541" ph="{...}" />
-            <marker date="1509633494307" expanded="true" signature="137:539" ph="{...}" />
-            <marker date="1509633494307" expanded="true" signature="192:406" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/CoinPocket.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1509634112635" expanded="true" signature="70:208" ph="{...}" />
-            <marker date="1509634112635" expanded="true" signature="100:206" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../p2p.implementation/Block.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../p2p.implementation/P2PService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Genesis.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-          <folding>
-            <marker date="1509627799847" expanded="false" signature="6:88" ph="..." />
-            <marker date="1509627799847" expanded="true" signature="122:1276" ph="{...}" />
-            <marker date="1509627799847" expanded="true" signature="149:1274" ph="{...}" />
-            <marker date="1509627799847" expanded="true" signature="415:1268" ph="{...}" />
-            <marker date="1509627799847" expanded="true" signature="530:649" ph="{...}" />
-            <marker date="1509627799847" expanded="true" signature="707:1223" ph="{...}" />
-            <marker date="1509627799847" expanded="true" signature="912:1209" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../p2p.implementation/Block.cs" />
+    <entry file="file://$PROJECT_DIR$/../p2p.implementation/P2PService.cs" />
     <entry file="file://$PROJECT_DIR$/EccService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <marker date="1509022637065" expanded="false" signature="6:68" ph="..." />
-            <marker date="1509022637065" expanded="true" signature="102:2846" ph="{...}" />
-            <marker date="1509022637065" expanded="true" signature="139:2844" ph="{...}" />
-            <marker date="1509022637065" expanded="true" signature="154:240" ph="/// Получает именованную кривую nistP256. ... " />
-            <marker date="1509022637065" expanded="true" signature="403:889" ph="{...}" />
-            <marker date="1509022637065" expanded="true" signature="974:1264" ph="{...}" />
-            <marker date="1509022637065" expanded="true" signature="1040:1159" ph="{...}" />
-            <marker date="1509022637065" expanded="true" signature="1348:1619" ph="{...}" />
-            <marker date="1509022637065" expanded="true" signature="1414:1501" ph="{...}" />
-            <marker date="1509022637065" expanded="true" signature="1692:2100" ph="{...}" />
-            <marker date="1509022637065" expanded="true" signature="1852:2014" ph="{...}" />
-            <marker date="1509022637065" expanded="true" signature="2045:2090" ph="{...}" />
-            <marker date="1509022637065" expanded="true" signature="2154:2294" ph="{...}" />
-            <marker date="1509022637065" expanded="true" signature="2358:2529" ph="{...}" />
-            <marker date="1509022637065" expanded="true" signature="2679:2838" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,13 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="639">
           <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-          <folding>
-            <marker date="1509143878978" expanded="false" signature="6:126" ph="..." />
-            <marker date="1509143878978" expanded="true" signature="171:1228" ph="{...}" />
-            <marker date="1509143878978" expanded="true" signature="226:737" ph="{...}" />
-            <marker date="1509143878978" expanded="true" signature="787:988" ph="{...}" />
-            <marker date="1509143878978" expanded="true" signature="1039:1226" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,78 +634,179 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../p2p.implementation/IP2PService.cs" />
+    <entry file="file://$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs" />
+    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
-            <marker date="1509627799879" expanded="true" signature="32:214" ph="{...}" />
-            <marker date="1509627799879" expanded="true" signature="73:212" ph="{...}" />
-            <marker date="1509627799879" expanded="true" signature="136:206" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="6:154" ph="..." />
+            <marker date="1510000188900" expanded="true" signature="195:7379" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="224:7377" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="265:2011" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="374:511" ph="/* var testBlock = new Block(1, DateTime.Now, new Hash(&quot;testHash&quot;)); ... */" />
+            <marker date="1510000188900" expanded="true" signature="579:1776" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="821:1762" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="1262:1708" ph="/* сообщение для отправки клиенту ... */" />
+            <marker date="1510000188900" expanded="true" signature="1808:1882" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="1902:2001" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="2029:2845" ph="/* var testBlock = new Block(1, DateTime.Now, new Hash(&quot;testHash&quot;)); ... */" />
+            <marker date="1510000188900" expanded="true" signature="2872:3291" ph="/* public static class KeyGen ... */" />
+            <marker date="1510000188900" expanded="true" signature="3323:3675" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="3386:3669" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="3677:4237" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
+            <marker date="1510000188900" expanded="true" signature="4243:4312" ph="/// Пример использования подписи ... " />
+            <marker date="1510000188900" expanded="true" signature="4346:5682" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="4473:4747" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="4548:4737" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="4804:5214" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="4879:5204" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="5294:5676" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="5369:5666" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="5709:6681" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="5762:6675" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="6177:6308" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
+            <marker date="1510000188900" expanded="true" signature="6510:6594" ph="/* Create a signature for HashValue and assign it to ... */" />
+            <marker date="1510000188900" expanded="true" signature="6717:7371" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="6793:7365" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="7153:7243" ph="{...}" />
+            <marker date="1510000188900" expanded="true" signature="7260:7354" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../p2p.implementation/IP2PService.cs">
+    <entry file="file://$PROJECT_DIR$/OtherLogics/CoinPocket.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="270">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
-            <marker date="1509634922963" expanded="false" signature="6:287" ph="..." />
-            <marker date="1509634922963" expanded="true" signature="328:2077" ph="{...}" />
-            <marker date="1509634922963" expanded="true" signature="364:2075" ph="{...}" />
-            <marker date="1509634922963" expanded="true" signature="444:1116" ph="{...}" />
-            <marker date="1509634922963" expanded="true" signature="521:638" ph="{...}" />
-            <marker date="1509634922963" expanded="true" signature="931:1005" ph="{...}" />
-            <marker date="1509634922963" expanded="false" signature="1163:1400" ph="{...}" />
-            <marker date="1509634922963" expanded="false" signature="1295:1389" ph="{...}" />
-            <marker date="1509634922963" expanded="false" signature="1482:1620" ph="{...}" />
-            <marker date="1509634922963" expanded="false" signature="1692:1802" ph="{...}" />
-            <marker date="1509634922963" expanded="false" signature="1861:1936" ph="{...}" />
-            <marker date="1509634922963" expanded="false" signature="2007:2069" ph="{...}" />
+            <marker date="1510000188864" expanded="true" signature="70:208" ph="{...}" />
+            <marker date="1510000188864" expanded="true" signature="100:206" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherLogics/ConsoleWorker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1510008758012" expanded="false" signature="6:43" ph="..." />
+            <marker date="1510008758012" expanded="true" signature="84:484" ph="{...}" />
+            <marker date="1510008758012" expanded="true" signature="124:482" ph="{...}" />
+            <marker date="1510008758012" expanded="true" signature="196:476" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Connecter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-685">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508697401212" expanded="false" signature="6:76" ph="..." />
+            <marker date="1508697401212" expanded="true" signature="117:2106" ph="{...}" />
+            <marker date="1508697401212" expanded="true" signature="146:2104" ph="{...}" />
+            <marker date="1508697401212" expanded="true" signature="442:592" ph="{...}" />
+            <marker date="1508697401212" expanded="true" signature="654:1314" ph="{...}" />
+            <marker date="1508697401212" expanded="true" signature="766:1116" ph="{...}" />
+            <marker date="1508697401212" expanded="true" signature="808:1102" ph="{...}" />
+            <marker date="1508697401212" expanded="true" signature="847:977" ph="/* var message = Console.ReadLine(); // сообщение для отправки ... */" />
+            <marker date="1508697401212" expanded="true" signature="1149:1224" ph="{...}" />
+            <marker date="1508697401212" expanded="true" signature="1244:1304" ph="{...}" />
+            <marker date="1508697401212" expanded="true" signature="1359:2098" ph="{...}" />
+            <marker date="1508697401212" expanded="true" signature="1590:1899" ph="{...}" />
+            <marker date="1508697401212" expanded="true" signature="1632:1885" ph="{...}" />
+            <marker date="1508697401212" expanded="true" signature="1931:2006" ph="{...}" />
+            <marker date="1508697401212" expanded="true" signature="2026:2088" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Genesis.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding>
+            <marker date="1510000196841" expanded="true" signature="6:88" ph="..." />
+            <marker date="1510000196841" expanded="true" signature="122:1276" ph="{...}" />
+            <marker date="1510000196841" expanded="true" signature="149:1274" ph="{...}" />
+            <marker date="1510000196841" expanded="true" signature="415:1268" ph="{...}" />
+            <marker date="1510000196841" expanded="true" signature="530:649" ph="{...}" />
+            <marker date="1510000196841" expanded="true" signature="707:1223" ph="{...}" />
+            <marker date="1510000196841" expanded="true" signature="912:1209" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blockchain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1510000196801" expanded="true" signature="67:226" ph="{...}" />
+            <marker date="1510000196801" expanded="true" signature="97:224" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../TestProject.ConsoleApplication/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="482">
+          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
           <folding>
-            <marker date="1509633494246" expanded="false" signature="6:270" ph="..." />
-            <marker date="1509633494246" expanded="true" signature="312:1016" ph="{...}" />
-            <marker date="1509633494246" expanded="true" signature="348:1014" ph="{...}" />
-            <marker date="1509633494246" expanded="true" signature="421:1008" ph="{...}" />
-            <marker date="1509633494246" expanded="true" signature="498:615" ph="{...}" />
-            <marker date="1509633494246" expanded="true" signature="1020:3249" ph="Trash was created" />
-            <marker date="1509633494246" expanded="true" signature="1046:1123" ph="/* private const int port = 8888; ... */" />
-            <marker date="1509633494246" expanded="true" signature="1125:2408" ph="/* try ... */" />
-            <marker date="1509633494246" expanded="true" signature="2422:3238" ph="/* var testBlock = new Block(1, DateTime.Now, new Hash(&quot;testHash&quot;)); ... */" />
+            <marker date="1510011810483" expanded="true" signature="6:270" ph="..." />
+            <marker date="1510011810483" expanded="true" signature="313:696" ph="{...}" />
+            <marker date="1510011810483" expanded="true" signature="349:693" ph="{...}" />
+            <marker date="1510011810483" expanded="true" signature="422:687" ph="{...}" />
+            <marker date="1510011810483" expanded="true" signature="514:676" ph="{...}" />
+            <marker date="1510011810483" expanded="true" signature="589:662" ph="{...}" />
+            <marker date="1510011810483" expanded="false" signature="700:2929" ph="Trash was created" />
+            <marker date="1510011810483" expanded="true" signature="726:803" ph="/* private const int port = 8888; ... */" />
+            <marker date="1510011810483" expanded="true" signature="805:2088" ph="/* try ... */" />
+            <marker date="1510011810483" expanded="true" signature="2102:2918" ph="/* var testBlock = new Block(1, DateTime.Now, new Hash(&quot;testHash&quot;)); ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/ConsoleWorker.cs">
+    <entry file="file://$PROJECT_DIR$/OtherLogics/FileManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+        <state relative-caret-position="390">
+          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
           <folding>
-            <marker date="1509635059801" expanded="true" signature="6:43" ph="..." />
-            <marker date="1509635059801" expanded="true" signature="84:484" ph="{...}" />
-            <marker date="1509635059801" expanded="true" signature="124:482" ph="{...}" />
-            <marker date="1509635059801" expanded="true" signature="196:476" ph="{...}" />
+            <marker date="1510012860888" expanded="false" signature="6:122" ph="..." />
+            <marker date="1510012860888" expanded="true" signature="163:1734" ph="{...}" />
+            <marker date="1510012860888" expanded="true" signature="201:1732" ph="{...}" />
+            <marker date="1510012860888" expanded="true" signature="248:333" ph="{...}" />
+            <marker date="1510012860888" expanded="true" signature="488:555" ph="{...}" />
+            <marker date="1510012860888" expanded="true" signature="676:982" ph="{...}" />
+            <marker date="1510012860888" expanded="true" signature="829:914" ph="{...}" />
+            <marker date="1510012860888" expanded="false" signature="1036:1708" ph="{...}" />
+            <marker date="1510012860888" expanded="true" signature="1113:1230" ph="{...}" />
+            <marker date="1510012860888" expanded="true" signature="1523:1597" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <marker date="1510012366061" expanded="false" signature="6:287" ph="..." />
+            <marker date="1510012366061" expanded="true" signature="328:1498" ph="{...}" />
+            <marker date="1510012366061" expanded="true" signature="364:1496" ph="{...}" />
+            <marker date="1510012366061" expanded="true" signature="444:537" ph="{...}" />
+            <marker date="1510012366061" expanded="true" signature="584:821" ph="{...}" />
+            <marker date="1510012366061" expanded="true" signature="716:810" ph="{...}" />
+            <marker date="1510012366061" expanded="true" signature="903:1041" ph="{...}" />
+            <marker date="1510012366061" expanded="true" signature="1113:1223" ph="{...}" />
+            <marker date="1510012366061" expanded="true" signature="1282:1357" ph="{...}" />
+            <marker date="1510012366061" expanded="true" signature="1428:1490" ph="{...}" />
           </folding>
         </state>
       </provider>

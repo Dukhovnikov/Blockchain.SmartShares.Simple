@@ -18,27 +18,9 @@ namespace Blockchain.ConsoleApplication
         [STAThread]
         public static void Main(string[] args)
         {
-            var openFileDialog = new OpenFileDialog()
-            {
-                Filter = "Text files(*.txt)|*.txt",
-                Title = "Choose file of kay pair"
-            };
-
-            if (openFileDialog.ShowDialog() == DialogResult.Cancel) 
-                throw new InvalidDataException("Collapsed keypair.");
-
-            var path = openFileDialog.FileName;
-            var keys = KeyPair.LoadFrom(path);
-
-            var pocket = new CoinPocket()
-            {
-                KeyPair = keys,
-                Amount = 1
-            };
+            var keyPair = CreateKeyPair();
             
-            ConsoleWorker.WriteDataCoinPocket(pocket);
-
-            Console.ReadKey();
+            var 
         }
 
         public static KeyPair CreateKeyPair()

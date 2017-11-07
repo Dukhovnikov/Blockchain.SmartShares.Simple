@@ -10,6 +10,7 @@ using Blockchain.SmartShares;
 using MessagePack;
 using Newtonsoft.Json;
 
+
 namespace TestProject.ConsoleApplication
 {
     internal static class Program
@@ -17,23 +18,16 @@ namespace TestProject.ConsoleApplication
         [STAThread]
         public static void Main(string[] args)
         {
-            var openFileDialog = new OpenFileDialog()
+            var blockchain = new Blockchain.SmartShares.Blockchain()
             {
-                Filter = "Text files(*.txt)|*.txt",
-                Title = "Choose file of kay pair"
+                blocks = new Dictionary<byte[], Block>()
+                {
+                    { Genesis.GenerateGenesisBlock()}
+                }
             };
-
-            if (openFileDialog.ShowDialog() == DialogResult.Cancel) 
-                throw new InvalidDataException("Collapsed keypair.");
-
-            var path = openFileDialog.FileName;
-            var keys = KeyPair.LoadFrom(path);
-            
-            Console.Write("Hello! It's your public key: {0}", HexConvert.FromBytes(keys.PublicKey));
-
-            Console.ReadKey();
         }
     }
+
 }
 
 
