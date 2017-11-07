@@ -14,15 +14,15 @@ namespace Blockchain.ConsoleApplication
             Block,
             Blockchain,
         }
-        
-        public Dictionary<FileTypeofBlockchain, string> FileDictionary = 
+
+        private static Dictionary<FileTypeofBlockchain, string> FileDictionary { get; }=
             new Dictionary<FileTypeofBlockchain, string>()
             {
-                {FileTypeofBlockchain.KeyPairs, ""}
-            }
+                {FileTypeofBlockchain.KeyPairs, "\\KeyPairs.txt"},
+                {FileTypeofBlockchain.Block, "\\Block.txt"},
+                {FileTypeofBlockchain.Blockchain, "Blockchain.txt"}
+            };
         
-        private static string SaveFilePath { get; set; }
-
         public static string ChooseFolderToSaveData()
         {
             var folderBrowserDialog = new FolderBrowserDialog();
@@ -33,8 +33,11 @@ namespace Blockchain.ConsoleApplication
             }
             throw new Exception("Invalid choosing path");
         }
-        
-        
+
+        public static string CombainPath(string folderPath, FileTypeofBlockchain filetype)
+        {
+            return folderPath + $"\\{FileDictionary[filetype]}";
+        }
         
         static void Test()
         {

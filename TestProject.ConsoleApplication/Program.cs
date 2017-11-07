@@ -18,13 +18,25 @@ namespace TestProject.ConsoleApplication
         [STAThread]
         public static void Main(string[] args)
         {
+            var pathtokeypair = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            var genesisBlock = Genesis.GenerateGenesisBlock(
+                FileManager.CombainPath(pathtokeypair, FileManager.FileTypeofBlockchain.KeyPairs)); 
+            
             var blockchain = new Blockchain.SmartShares.Blockchain()
-            {
+            {             
                 blocks = new Dictionary<byte[], Block>()
                 {
-                    { Genesis.GenerateGenesisBlock()}
+                    { genesisBlock.Hash, genesisBlock}
                 }
             };
+
+            var serialaizeBlockchain = JsonConvert.SerializeObject(blockchain);
+            
+            File.WriteAllText(
+                FileManager.CombainPath(pathtokeypair, FileManager.FileTypeofBlockchain.Blockchain), 
+                serialaizeBlockchain);
+
+            Console.ReadKey();
         }
     }
 

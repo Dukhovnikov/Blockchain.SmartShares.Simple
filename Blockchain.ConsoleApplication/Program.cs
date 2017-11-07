@@ -19,8 +19,12 @@ namespace Blockchain.ConsoleApplication
         public static void Main(string[] args)
         {
             var keyPair = CreateKeyPair();
+
+            var path = FileManager.ChooseFolderToSaveData();
             
-            var 
+            Console.WriteLine(path + "\\keys.txt");
+
+            Console.ReadKey();
         }
 
         public static KeyPair CreateKeyPair()
@@ -43,8 +47,7 @@ namespace Blockchain.ConsoleApplication
         public static void CreateBlockToFile(Block block, string path)
         {
             var jsonBlock = JsonConvert.SerializeObject(block);
-            
-            
+                        
         }
 
         public static string SerialaizeBlock(Block block)
