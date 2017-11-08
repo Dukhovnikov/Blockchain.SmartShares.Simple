@@ -10,7 +10,6 @@ using Blockchain.SmartShares;
 using MessagePack;
 using Newtonsoft.Json;
 
-
 namespace TestProject.ConsoleApplication
 {
     internal static class Program
@@ -30,13 +29,19 @@ namespace TestProject.ConsoleApplication
                 }
             };
 
-            var serialaizeBlockchain = JsonConvert.SerializeObject(blockchain);
+            var serialaizeBlockchain = JsonConvert.SerializeObject(blockchain, Formatting.Indented);
             
-            File.WriteAllText(
-                FileManager.CombainPath(pathtokeypair, FileManager.FileTypeofBlockchain.Blockchain), 
-                serialaizeBlockchain);
+            var mpBlockchain = MessagePackSerializer.Serialize(blockchain);
 
+            var block = MessagePackSerializer.Deserialize<Blockchain.SmartShares.Blockchain>(mpBlockchain);
+            //var serialaizeBlockchain = MessagePackSerializer.ToJson(mpBlockchain);
+
+
+/*            File.WriteAllText(
+                FileManager.CombainPath(pathtokeypair, FileManager.FileTypeofBlockchain.Blockchain), 
+                serialaizeBlockchain);*/
             Console.ReadKey();
+
         }
     }
 

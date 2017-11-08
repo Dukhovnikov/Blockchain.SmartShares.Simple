@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
+using MessagePack;
 using Newtonsoft.Json;
 
 namespace Blockchain.SmartShares
 {
-    [JsonObject]
+    [MessagePackObject,JsonObject]
     public class Blockchain
     {
-        [JsonProperty("blocks")]
+        [Key(0),JsonProperty("blocks")]
         public Dictionary<byte[], Block> blocks { get; set; } = new Dictionary<byte[], Block>();
     }
 }

@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 
 namespace Blockchain.SmartShares
 {
+    [JsonObject]
     public class KeyPair
     {
         [JsonProperty("pub")]

@@ -15,7 +15,10 @@ namespace Blockchain.ConsoleApplication
             Blockchain,
         }
 
-        private static Dictionary<FileTypeofBlockchain, string> FileDictionary { get; }=
+        public static readonly string DataDirectoryPath =
+            Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+            private static Dictionary<FileTypeofBlockchain, string> FileDictionary { get; } =
             new Dictionary<FileTypeofBlockchain, string>()
             {
                 {FileTypeofBlockchain.KeyPairs, "\\KeyPairs.txt"},
@@ -38,32 +41,10 @@ namespace Blockchain.ConsoleApplication
         {
             return folderPath + $"\\{FileDictionary[filetype]}";
         }
-        
-        static void Test()
+
+        public static string CombainPath(FileTypeofBlockchain filetype)
         {
-            var openFileDialog = new OpenFileDialog()
-            {
-                Filter = "Text files(*.txt)|*.txt",
-                Title = "Choose file of kay pair"
-            };
-
-            if (openFileDialog.ShowDialog() == DialogResult.Cancel) 
-                throw new InvalidDataException("Collapsed keypair.");
-
-            var path = openFileDialog.FileName;
-            var keys = KeyPair.LoadFrom(path);
-
-            var pocket = new CoinPocket()
-            {
-                KeyPair = keys,
-                Amount = 1
-            };
-            
-            ConsoleWorker.WriteDataCoinPocket(pocket);
-
-            Console.ReadKey();
-        }
-        
-        
+            return DataDirectoryPath + $"\\{FileDictionary[filetype]}";
+        }                    
     }
 }

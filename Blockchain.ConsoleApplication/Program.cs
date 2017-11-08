@@ -18,13 +18,7 @@ namespace Blockchain.ConsoleApplication
         [STAThread]
         public static void Main(string[] args)
         {
-            var keyPair = CreateKeyPair();
-
-            var path = FileManager.ChooseFolderToSaveData();
             
-            Console.WriteLine(path + "\\keys.txt");
-
-            Console.ReadKey();
         }
 
         public static KeyPair CreateKeyPair()

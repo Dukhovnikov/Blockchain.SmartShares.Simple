@@ -43,7 +43,7 @@ namespace Blockchain.SmartShares.Properties
         [Key(0), JsonProperty("to")]
         public byte[] RecipientHash { get; set; }
         
-        [Key(0), JsonProperty("val")]
+        [Key(1), JsonProperty("val")]
         public ulong Value { get; set; }
     }
 }
