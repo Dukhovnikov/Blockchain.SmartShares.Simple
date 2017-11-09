@@ -2,7 +2,7 @@
 
 namespace Blockchain.SmartShares.Network
 {
-    public class Connection
+    public class Peer
     {
         public int Port { get; set; }
         

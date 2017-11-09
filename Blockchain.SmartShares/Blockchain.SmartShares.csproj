@@ -59,7 +59,8 @@
     <Compile Include="Hash.cs" />
     <Compile Include="HexConvert.cs" />
     <Compile Include="KeyPair.cs" />
-    <Compile Include="Network\Connection.cs" />
+    <Compile Include="Network\ConnectionManager.cs" />
+    <Compile Include="Network\Peer.cs" />
     <Compile Include="OtherLogics\CoinPocket.cs" />
     <Compile Include="OtherLogics\ConsoleWorker.cs" />
     <Compile Include="OtherLogics\FileManager.cs" />

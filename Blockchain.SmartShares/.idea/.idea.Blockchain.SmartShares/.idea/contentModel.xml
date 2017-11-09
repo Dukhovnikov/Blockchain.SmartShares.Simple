@@ -28,7 +28,8 @@
       <e p="HexConvert.cs" t="Include" />
       <e p="KeyPair.cs" t="Include" />
       <e p="Network" t="Include">
-        <e p="Connection.cs" t="Include" />
+        <e p="ConnectionManager.cs" t="Include" />
+        <e p="Peer.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="OtherLogics" t="Include">
