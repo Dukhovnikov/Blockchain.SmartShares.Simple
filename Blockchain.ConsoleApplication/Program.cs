@@ -9,7 +9,8 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 using Blockchain.SmartShares;
-using Newtonsoft.Json;
+using Blockchain.SmartShares.Network;
+
 
 namespace Blockchain.ConsoleApplication
 {
@@ -18,40 +19,30 @@ namespace Blockchain.ConsoleApplication
         [STAThread]
         public static void Main(string[] args)
         {
-            
-        }
-
-        public static KeyPair CreateKeyPair()
-        {
-            EccService.GenerateKey(out var privateKey, out var publicKey);
-
-            return new KeyPair()
+            try
             {
-                PrivateKey = privateKey,
-                PublicKey = publicKey
-            };
-        }
-
-        public static void LoadKeyPairtoStringFile(KeyPair keyPair, string path)
-        {
-            var jsonKeyPair = JsonConvert.SerializeObject(keyPair);
-            File.WriteAllText(path, jsonKeyPair);
-        }
-
-        public static void CreateBlockToFile(Block block, string path)
-        {
-            var jsonBlock = JsonConvert.SerializeObject(block);
-                        
-        }
-
-        public static string SerialaizeBlock(Block block)
-        {
-            return JsonConvert.SerializeObject(block);
-        }
-
-        public static void WriteStringToFile(string str ,string path)
-        {
-            File.WriteAllText(path, str);
+                Console.Write("Введите порт для прослушивания: ");
+                var localPort = int.Parse(Console.ReadLine());
+                
+                Console.Write("Введите удаленный порт для подключения: ");
+                var remotePort = int.Parse(Console.ReadLine());
+                
+                ConnectionManager.TransmitterPort = remotePort;
+                ConnectionManager.ReceiverPort = localPort;
+                
+                var receiveThread = new Thread(new ThreadStart(ConnectionManager.ReceiveMessage));
+                receiveThread.Start();
+                
+                Console.Write("Введите сообщение для отправки: ");
+                var testMessage = Hash.ComputeSha256FromString(Console.ReadLine());
+                
+                ConnectionManager.SendMessage(testMessage);
+            }          
+                
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
         }
     }
 }

@@ -14,31 +14,63 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="532">
+              <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
               <folding>
-                <marker date="1510182176323" expanded="false" signature="6:287" ph="..." />
-                <marker date="1510182176323" expanded="true" signature="364:1435" ph="{...}" />
-                <marker date="1510182176323" expanded="true" signature="444:477" ph="{...}" />
-                <marker date="1510182176323" expanded="true" signature="524:761" ph="{...}" />
-                <marker date="1510182176323" expanded="true" signature="656:750" ph="{...}" />
-                <marker date="1510182176323" expanded="true" signature="843:981" ph="{...}" />
-                <marker date="1510182176323" expanded="true" signature="1053:1162" ph="{...}" />
-                <marker date="1510182176323" expanded="true" signature="1221:1296" ph="{...}" />
-                <marker date="1510182176323" expanded="true" signature="1367:1429" ph="{...}" />
+                <marker date="1510685498791" expanded="true" signature="6:302" ph="..." />
+                <marker date="1510685498791" expanded="true" signature="344:1484" ph="{...}" />
+                <marker date="1510685498791" expanded="true" signature="380:1482" ph="{...}" />
+                <marker date="1510685498791" expanded="true" signature="460:1476" ph="{...}" />
+                <marker date="1510685498791" expanded="true" signature="486:1341" ph="{...}" />
+                <marker date="1510685498791" expanded="true" signature="1400:1466" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Peer.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Network/Peer.cs">
+      <file leaf-file-name="TrashData.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="-30">
+              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding>
-                <marker date="1510185207661" expanded="true" signature="59:209" ph="{...}" />
-                <marker date="1510185207661" expanded="true" signature="83:207" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="6:201" ph="..." />
+                <marker date="1510193201780" expanded="true" signature="242:8386" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="271:8384" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="332:569" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="464:558" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="651:789" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="861:970" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="1029:1104" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="1175:1237" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="1272:3018" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="1381:1518" ph="/* var testBlock = new Block(1, DateTime.Now, new Hash(&quot;testHash&quot;)); ... */" />
+                <marker date="1510193201780" expanded="true" signature="1586:2783" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="1828:2769" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="2269:2715" ph="/* сообщение для отправки клиенту ... */" />
+                <marker date="1510193201780" expanded="true" signature="2815:2889" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="2909:3008" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="3036:3852" ph="/* var testBlock = new Block(1, DateTime.Now, new Hash(&quot;testHash&quot;)); ... */" />
+                <marker date="1510193201780" expanded="true" signature="3879:4298" ph="/* public static class KeyGen ... */" />
+                <marker date="1510193201780" expanded="true" signature="4330:4682" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="4393:4676" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="4684:5244" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
+                <marker date="1510193201780" expanded="true" signature="5250:5319" ph="/// Пример использования подписи ... " />
+                <marker date="1510193201780" expanded="true" signature="5353:6689" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="5480:5754" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="5555:5744" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="5811:6221" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="5886:6211" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="6301:6683" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="6376:6673" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="6716:7688" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="6769:7682" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="7184:7315" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
+                <marker date="1510193201780" expanded="true" signature="7517:7601" ph="/* Create a signature for HashValue and assign it to ... */" />
+                <marker date="1510193201780" expanded="true" signature="7724:8378" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="7800:8372" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="8160:8250" ph="{...}" />
+                <marker date="1510193201780" expanded="true" signature="8267:8361" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -47,22 +79,70 @@
       <file leaf-file-name="ConnectionManager.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Network/ConnectionManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            <state relative-caret-position="275">
+              <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
               <folding>
-                <marker date="1510190109957" expanded="true" signature="6:57" ph="..." />
-                <marker date="1510190109957" expanded="true" signature="99:1453" ph="{...}" />
-                <marker date="1510190109957" expanded="true" signature="136:1451" ph="{...}" />
-                <marker date="1510190109957" expanded="true" signature="315:876" ph="{...}" />
-                <marker date="1510190109957" expanded="true" signature="393:677" ph="{...}" />
-                <marker date="1510190109957" expanded="true" signature="436:663" ph="{...}" />
-                <marker date="1510190109957" expanded="true" signature="710:776" ph="{...}" />
-                <marker date="1510190109957" expanded="true" signature="797:866" ph="{...}" />
-                <marker date="1510190109957" expanded="true" signature="921:1444" ph="{...}" />
-                <marker date="1510190109957" expanded="true" signature="1047:1227" ph="{...}" />
-                <marker date="1510190109957" expanded="true" signature="1090:1213" ph="{...}" />
-                <marker date="1510190109957" expanded="true" signature="1272:1338" ph="{...}" />
-                <marker date="1510190109957" expanded="true" signature="1371:1433" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="6:178" ph="..." />
+                <marker date="1510686181427" expanded="true" signature="220:2697" ph="{...}" />
+                <marker date="1510686181427" expanded="false" signature="257:2695" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="434:931" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="512:732" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="765:831" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="852:921" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="976:1633" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="1176:1434" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="1218:1420" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="1466:1541" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="1561:1623" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="1721:2035" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="1797:1879" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="1924:1990" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="2045:2688" ph="/* public static async Task&lt;byte[]&gt; ReceiveMessageAsync(UdpClient client, ) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hash.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hash.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="52" />
+              <folding>
+                <marker date="1508969944529" expanded="false" signature="6:54" ph="..." />
+                <marker date="1508969944529" expanded="true" signature="88:604" ph="{...}" />
+                <marker date="1508969944529" expanded="true" signature="119:602" ph="{...}" />
+                <marker date="1508969944529" expanded="true" signature="182:301" ph="{...}" />
+                <marker date="1508969944529" expanded="true" signature="383:595" ph="{...}" />
+                <marker date="1508969944529" expanded="true" signature="442:585" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HexConvert.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HexConvert.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="33" />
+              <folding>
+                <marker date="1509633494307" expanded="true" signature="6:66" ph="..." />
+                <marker date="1509633494307" expanded="true" signature="100:541" ph="{...}" />
+                <marker date="1509633494307" expanded="true" signature="137:539" ph="{...}" />
+                <marker date="1509633494307" expanded="true" signature="192:406" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Peer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Network/Peer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding>
+                <marker date="1510192484182" expanded="true" signature="59:209" ph="{...}" />
+                <marker date="1510192484182" expanded="true" signature="83:207" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -74,32 +154,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Network/ConnectionManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/packages.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Network/Peer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/EccServiceTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../TestProject.ConsoleApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Transaction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../TestProject.ConsoleApplication/Connecter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/KeyPairTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/EccServiceTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../TestProject.ConsoleApplication/packages.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../p2p.implementation/packages.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BlockchainUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Blockchain.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Genesis.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KeyPair.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EccService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Transaction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Block.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OtherLogics/FileManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../TestProject.ConsoleApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EccService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hash.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/packages.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HexConvert.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Connecter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../p2p.implementation/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Genesis.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OtherLogics/ConsoleWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OtherLogics/FileManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OtherLogics/CoinPocket.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Network/ConnectionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Network/Peer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HexConvert.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BlockchainUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Connecter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -110,7 +190,6 @@
         <option value="$PROJECT_DIR$/StaticHash.cs" />
         <option value="$PROJECT_DIR$/../TestProject.ConsoleApplication/MPBlock.cs" />
         <option value="$PROJECT_DIR$/../TestProject.ConsoleApplication/MPHash.cs" />
-        <option value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs" />
         <option value="D:/YandexDisk/Self-development/In a nutshell/In a nutshell.cs" />
         <option value="$PROJECT_DIR$/Hash.cs" />
         <option value="$PROJECT_DIR$/../p2p.implementation/Block.cs" />
@@ -136,9 +215,10 @@
         <option value="$PROJECT_DIR$/Blockchain.cs" />
         <option value="$PROJECT_DIR$/../TestProject.ConsoleApplication/Program.cs" />
         <option value="$PROJECT_DIR$/BlockchainUtil.cs" />
-        <option value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" />
         <option value="$PROJECT_DIR$/Network/Connection.cs" />
         <option value="$PROJECT_DIR$/Network/Peer.cs" />
+        <option value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs" />
+        <option value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" />
         <option value="$PROJECT_DIR$/Network/ConnectionManager.cs" />
       </list>
     </option>
@@ -171,13 +251,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Blockchain.SmartShares (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Blockchain.SmartShares (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Blockchain.ConsoleApplication" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -190,12 +274,19 @@
               <item name="Blockchain.SmartShares" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Network" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Blockchain.SmartShares (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Blockchain.SmartShares" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="OtherLogics" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.TestProject.ConsoleApplication">
+  <component name="RunManager" selected=".NET Project.Blockchain.ConsoleApplication">
     <configuration name="Blockchain.ConsoleApplication" type="DotNetProject" factoryName=".NET Project" temporary="true">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/Blockchain.ConsoleApplication.csproj" />
       <option name="PROJECT_KIND" value="Console" />
@@ -315,8 +406,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue=".NET Project.TestProject.ConsoleApplication" />
-        <item index="1" class="java.lang.String" itemvalue=".NET Project.Blockchain.ConsoleApplication" />
+        <item index="0" class="java.lang.String" itemvalue=".NET Project.Blockchain.ConsoleApplication" />
+        <item index="1" class="java.lang.String" itemvalue=".NET Project.TestProject.ConsoleApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -354,11 +445,13 @@
       <workItem from="1510086882705" duration="4072000" />
       <workItem from="1510182225665" duration="1355000" />
       <workItem from="1510184935232" duration="4990000" />
+      <workItem from="1510192549818" duration="2362000" />
+      <workItem from="1510663879672" duration="6983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93673000" />
+    <option name="totallyTimeSpent" value="103018000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,7 +463,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -381,17 +474,17 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28709677" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1391258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4408602" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13548388" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -514,31 +607,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../p2p.implementation/Hash.cs" />
-    <entry file="file://$PROJECT_DIR$/Hash.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HexConvert.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../p2p.implementation/Block.cs" />
     <entry file="file://$PROJECT_DIR$/../p2p.implementation/P2PService.cs" />
     <entry file="file://$PROJECT_DIR$/../p2p.implementation/IP2PService.cs" />
     <entry file="file://$PROJECT_DIR$/../p2p.implementation/PeerEntry.cs" />
-    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OtherLogics/CoinPocket.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -638,53 +710,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
+    <entry file="file://$PROJECT_DIR$/Network/Peer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
-            <marker date="1510182176323" expanded="false" signature="6:287" ph="..." />
-            <marker date="1510182176323" expanded="true" signature="364:1435" ph="{...}" />
-            <marker date="1510182176323" expanded="true" signature="444:477" ph="{...}" />
-            <marker date="1510182176323" expanded="true" signature="524:761" ph="{...}" />
-            <marker date="1510182176323" expanded="true" signature="656:750" ph="{...}" />
-            <marker date="1510182176323" expanded="true" signature="843:981" ph="{...}" />
-            <marker date="1510182176323" expanded="true" signature="1053:1162" ph="{...}" />
-            <marker date="1510182176323" expanded="true" signature="1221:1296" ph="{...}" />
-            <marker date="1510182176323" expanded="true" signature="1367:1429" ph="{...}" />
+            <marker date="1510192484182" expanded="true" signature="59:209" ph="{...}" />
+            <marker date="1510192484182" expanded="true" signature="83:207" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Network/Peer.cs">
+    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="-30">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding>
-            <marker date="1510185207661" expanded="true" signature="59:209" ph="{...}" />
-            <marker date="1510185207661" expanded="true" signature="83:207" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="6:201" ph="..." />
+            <marker date="1510193201780" expanded="true" signature="242:8386" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="271:8384" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="332:569" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="464:558" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="651:789" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="861:970" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="1029:1104" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="1175:1237" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="1272:3018" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="1381:1518" ph="/* var testBlock = new Block(1, DateTime.Now, new Hash(&quot;testHash&quot;)); ... */" />
+            <marker date="1510193201780" expanded="true" signature="1586:2783" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="1828:2769" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="2269:2715" ph="/* сообщение для отправки клиенту ... */" />
+            <marker date="1510193201780" expanded="true" signature="2815:2889" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="2909:3008" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="3036:3852" ph="/* var testBlock = new Block(1, DateTime.Now, new Hash(&quot;testHash&quot;)); ... */" />
+            <marker date="1510193201780" expanded="true" signature="3879:4298" ph="/* public static class KeyGen ... */" />
+            <marker date="1510193201780" expanded="true" signature="4330:4682" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="4393:4676" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="4684:5244" ph="/* Цифровые подписи основаны на асимметричном шифровании. ... */" />
+            <marker date="1510193201780" expanded="true" signature="5250:5319" ph="/// Пример использования подписи ... " />
+            <marker date="1510193201780" expanded="true" signature="5353:6689" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="5480:5754" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="5555:5744" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="5811:6221" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="5886:6211" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="6301:6683" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="6376:6673" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="6716:7688" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="6769:7682" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="7184:7315" ph="/* Create an RSAPKCS1SignatureFormatter object and pass it the ... */" />
+            <marker date="1510193201780" expanded="true" signature="7517:7601" ph="/* Create a signature for HashValue and assign it to ... */" />
+            <marker date="1510193201780" expanded="true" signature="7724:8378" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="7800:8372" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="8160:8250" ph="{...}" />
+            <marker date="1510193201780" expanded="true" signature="8267:8361" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <marker date="1510685498791" expanded="true" signature="6:302" ph="..." />
+            <marker date="1510685498791" expanded="true" signature="344:1484" ph="{...}" />
+            <marker date="1510685498791" expanded="true" signature="380:1482" ph="{...}" />
+            <marker date="1510685498791" expanded="true" signature="460:1476" ph="{...}" />
+            <marker date="1510685498791" expanded="true" signature="486:1341" ph="{...}" />
+            <marker date="1510685498791" expanded="true" signature="1400:1466" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HexConvert.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="33" />
+          <folding>
+            <marker date="1509633494307" expanded="true" signature="6:66" ph="..." />
+            <marker date="1509633494307" expanded="true" signature="100:541" ph="{...}" />
+            <marker date="1509633494307" expanded="true" signature="137:539" ph="{...}" />
+            <marker date="1509633494307" expanded="true" signature="192:406" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hash.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="52" />
+          <folding>
+            <marker date="1508969944529" expanded="false" signature="6:54" ph="..." />
+            <marker date="1508969944529" expanded="true" signature="88:604" ph="{...}" />
+            <marker date="1508969944529" expanded="true" signature="119:602" ph="{...}" />
+            <marker date="1508969944529" expanded="true" signature="182:301" ph="{...}" />
+            <marker date="1508969944529" expanded="true" signature="383:595" ph="{...}" />
+            <marker date="1508969944529" expanded="true" signature="442:585" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Network/ConnectionManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        <state relative-caret-position="275">
+          <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
           <folding>
-            <marker date="1510190109957" expanded="true" signature="6:57" ph="..." />
-            <marker date="1510190109957" expanded="true" signature="99:1453" ph="{...}" />
-            <marker date="1510190109957" expanded="true" signature="136:1451" ph="{...}" />
-            <marker date="1510190109957" expanded="true" signature="315:876" ph="{...}" />
-            <marker date="1510190109957" expanded="true" signature="393:677" ph="{...}" />
-            <marker date="1510190109957" expanded="true" signature="436:663" ph="{...}" />
-            <marker date="1510190109957" expanded="true" signature="710:776" ph="{...}" />
-            <marker date="1510190109957" expanded="true" signature="797:866" ph="{...}" />
-            <marker date="1510190109957" expanded="true" signature="921:1444" ph="{...}" />
-            <marker date="1510190109957" expanded="true" signature="1047:1227" ph="{...}" />
-            <marker date="1510190109957" expanded="true" signature="1090:1213" ph="{...}" />
-            <marker date="1510190109957" expanded="true" signature="1272:1338" ph="{...}" />
-            <marker date="1510190109957" expanded="true" signature="1371:1433" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="6:178" ph="..." />
+            <marker date="1510686181427" expanded="true" signature="220:2697" ph="{...}" />
+            <marker date="1510686181427" expanded="false" signature="257:2695" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="434:931" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="512:732" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="765:831" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="852:921" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="976:1633" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="1176:1434" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="1218:1420" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="1466:1541" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="1561:1623" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="1721:2035" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="1797:1879" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="1924:1990" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="2045:2688" ph="/* public static async Task&lt;byte[]&gt; ReceiveMessageAsync(UdpClient client, ) ... */" />
           </folding>
         </state>
       </provider>
