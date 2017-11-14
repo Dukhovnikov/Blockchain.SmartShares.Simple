@@ -11,18 +11,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="597">
+              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
               <folding>
-                <marker date="1510685498791" expanded="true" signature="6:302" ph="..." />
-                <marker date="1510685498791" expanded="true" signature="344:1484" ph="{...}" />
-                <marker date="1510685498791" expanded="true" signature="380:1482" ph="{...}" />
-                <marker date="1510685498791" expanded="true" signature="460:1476" ph="{...}" />
-                <marker date="1510685498791" expanded="true" signature="486:1341" ph="{...}" />
-                <marker date="1510685498791" expanded="true" signature="1400:1466" ph="{...}" />
+                <marker date="1510686785073" expanded="false" signature="6:302" ph="..." />
+                <marker date="1510686785073" expanded="true" signature="344:1746" ph="{...}" />
+                <marker date="1510686785073" expanded="true" signature="380:1744" ph="{...}" />
+                <marker date="1510686785073" expanded="true" signature="460:1738" ph="{...}" />
+                <marker date="1510686785073" expanded="true" signature="486:1603" ph="{...}" />
+                <marker date="1510686785073" expanded="true" signature="945:1086" ph="/* var receiveThread = new Thread(new ThreadStart(ConnectionManager.ReceiveMessage)); ... */" />
+                <marker date="1510686785073" expanded="true" signature="1662:1728" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -31,11 +32,10 @@
       <file leaf-file-name="TrashData.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
+            <state relative-caret-position="45">
               <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding>
                 <marker date="1510193201780" expanded="true" signature="6:201" ph="..." />
-                <marker date="1510193201780" expanded="true" signature="242:8386" ph="{...}" />
                 <marker date="1510193201780" expanded="true" signature="271:8384" ph="{...}" />
                 <marker date="1510193201780" expanded="true" signature="332:569" ph="{...}" />
                 <marker date="1510193201780" expanded="true" signature="464:558" ph="{...}" />
@@ -76,20 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConnectionManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Network/ConnectionManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+            <state relative-caret-position="1657">
+              <caret line="109" column="1" lean-forward="false" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
               <folding>
-                <marker date="1510686181427" expanded="true" signature="6:178" ph="..." />
+                <marker date="1510686181427" expanded="false" signature="6:178" ph="..." />
                 <marker date="1510686181427" expanded="true" signature="220:2697" ph="{...}" />
-                <marker date="1510686181427" expanded="false" signature="257:2695" ph="{...}" />
+                <marker date="1510686181427" expanded="true" signature="257:2695" ph="{...}" />
                 <marker date="1510686181427" expanded="true" signature="434:931" ph="{...}" />
                 <marker date="1510686181427" expanded="true" signature="512:732" ph="{...}" />
                 <marker date="1510686181427" expanded="true" signature="765:831" ph="{...}" />
                 <marker date="1510686181427" expanded="true" signature="852:921" ph="{...}" />
-                <marker date="1510686181427" expanded="true" signature="976:1633" ph="{...}" />
+                <marker date="1510686181427" expanded="false" signature="976:1633" ph="{...}" />
                 <marker date="1510686181427" expanded="true" signature="1176:1434" ph="{...}" />
                 <marker date="1510686181427" expanded="true" signature="1218:1420" ph="{...}" />
                 <marker date="1510686181427" expanded="true" signature="1466:1541" ph="{...}" />
@@ -110,7 +110,6 @@
               <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="52" />
               <folding>
                 <marker date="1508969944529" expanded="false" signature="6:54" ph="..." />
-                <marker date="1508969944529" expanded="true" signature="88:604" ph="{...}" />
                 <marker date="1508969944529" expanded="true" signature="119:602" ph="{...}" />
                 <marker date="1508969944529" expanded="true" signature="182:301" ph="{...}" />
                 <marker date="1508969944529" expanded="true" signature="383:595" ph="{...}" />
@@ -123,11 +122,10 @@
       <file leaf-file-name="HexConvert.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HexConvert.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
+            <state relative-caret-position="15">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="33" />
               <folding>
                 <marker date="1509633494307" expanded="true" signature="6:66" ph="..." />
-                <marker date="1509633494307" expanded="true" signature="100:541" ph="{...}" />
                 <marker date="1509633494307" expanded="true" signature="137:539" ph="{...}" />
                 <marker date="1509633494307" expanded="true" signature="192:406" ph="{...}" />
               </folding>
@@ -138,10 +136,9 @@
       <file leaf-file-name="Peer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Network/Peer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="150">
               <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding>
-                <marker date="1510192484182" expanded="true" signature="59:209" ph="{...}" />
                 <marker date="1510192484182" expanded="true" signature="83:207" ph="{...}" />
               </folding>
             </state>
@@ -218,8 +215,8 @@
         <option value="$PROJECT_DIR$/Network/Connection.cs" />
         <option value="$PROJECT_DIR$/Network/Peer.cs" />
         <option value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs" />
-        <option value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" />
         <option value="$PROJECT_DIR$/Network/ConnectionManager.cs" />
+        <option value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" />
       </list>
     </option>
   </component>
@@ -447,11 +444,12 @@
       <workItem from="1510184935232" duration="4990000" />
       <workItem from="1510192549818" duration="2362000" />
       <workItem from="1510663879672" duration="6983000" />
+      <workItem from="1510686541230" duration="310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103018000" />
+    <option name="totallyTimeSpent" value="103328000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,7 +472,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28709677" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1391258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14072494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -712,10 +710,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Network/Peer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="150">
           <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
-            <marker date="1510192484182" expanded="true" signature="59:209" ph="{...}" />
             <marker date="1510192484182" expanded="true" signature="83:207" ph="{...}" />
           </folding>
         </state>
@@ -723,11 +720,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
+        <state relative-caret-position="45">
           <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding>
             <marker date="1510193201780" expanded="true" signature="6:201" ph="..." />
-            <marker date="1510193201780" expanded="true" signature="242:8386" ph="{...}" />
             <marker date="1510193201780" expanded="true" signature="271:8384" ph="{...}" />
             <marker date="1510193201780" expanded="true" signature="332:569" ph="{...}" />
             <marker date="1510193201780" expanded="true" signature="464:558" ph="{...}" />
@@ -767,28 +763,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-          <folding>
-            <marker date="1510685498791" expanded="true" signature="6:302" ph="..." />
-            <marker date="1510685498791" expanded="true" signature="344:1484" ph="{...}" />
-            <marker date="1510685498791" expanded="true" signature="380:1482" ph="{...}" />
-            <marker date="1510685498791" expanded="true" signature="460:1476" ph="{...}" />
-            <marker date="1510685498791" expanded="true" signature="486:1341" ph="{...}" />
-            <marker date="1510685498791" expanded="true" signature="1400:1466" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HexConvert.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
+        <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="33" />
           <folding>
             <marker date="1509633494307" expanded="true" signature="6:66" ph="..." />
-            <marker date="1509633494307" expanded="true" signature="100:541" ph="{...}" />
             <marker date="1509633494307" expanded="true" signature="137:539" ph="{...}" />
             <marker date="1509633494307" expanded="true" signature="192:406" ph="{...}" />
           </folding>
@@ -801,7 +781,6 @@
           <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="52" />
           <folding>
             <marker date="1508969944529" expanded="false" signature="6:54" ph="..." />
-            <marker date="1508969944529" expanded="true" signature="88:604" ph="{...}" />
             <marker date="1508969944529" expanded="true" signature="119:602" ph="{...}" />
             <marker date="1508969944529" expanded="true" signature="182:301" ph="{...}" />
             <marker date="1508969944529" expanded="true" signature="383:595" ph="{...}" />
@@ -812,17 +791,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Network/ConnectionManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+        <state relative-caret-position="1657">
+          <caret line="109" column="1" lean-forward="false" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
           <folding>
-            <marker date="1510686181427" expanded="true" signature="6:178" ph="..." />
+            <marker date="1510686181427" expanded="false" signature="6:178" ph="..." />
             <marker date="1510686181427" expanded="true" signature="220:2697" ph="{...}" />
-            <marker date="1510686181427" expanded="false" signature="257:2695" ph="{...}" />
+            <marker date="1510686181427" expanded="true" signature="257:2695" ph="{...}" />
             <marker date="1510686181427" expanded="true" signature="434:931" ph="{...}" />
             <marker date="1510686181427" expanded="true" signature="512:732" ph="{...}" />
             <marker date="1510686181427" expanded="true" signature="765:831" ph="{...}" />
             <marker date="1510686181427" expanded="true" signature="852:921" ph="{...}" />
-            <marker date="1510686181427" expanded="true" signature="976:1633" ph="{...}" />
+            <marker date="1510686181427" expanded="false" signature="976:1633" ph="{...}" />
             <marker date="1510686181427" expanded="true" signature="1176:1434" ph="{...}" />
             <marker date="1510686181427" expanded="true" signature="1218:1420" ph="{...}" />
             <marker date="1510686181427" expanded="true" signature="1466:1541" ph="{...}" />
@@ -831,6 +810,22 @@
             <marker date="1510686181427" expanded="true" signature="1797:1879" ph="{...}" />
             <marker date="1510686181427" expanded="true" signature="1924:1990" ph="{...}" />
             <marker date="1510686181427" expanded="true" signature="2045:2688" ph="/* public static async Task&lt;byte[]&gt; ReceiveMessageAsync(UdpClient client, ) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding>
+            <marker date="1510686785073" expanded="false" signature="6:302" ph="..." />
+            <marker date="1510686785073" expanded="true" signature="344:1746" ph="{...}" />
+            <marker date="1510686785073" expanded="true" signature="380:1744" ph="{...}" />
+            <marker date="1510686785073" expanded="true" signature="460:1738" ph="{...}" />
+            <marker date="1510686785073" expanded="true" signature="486:1603" ph="{...}" />
+            <marker date="1510686785073" expanded="true" signature="945:1086" ph="/* var receiveThread = new Thread(new ThreadStart(ConnectionManager.ReceiveMessage)); ... */" />
+            <marker date="1510686785073" expanded="true" signature="1662:1728" ph="{...}" />
           </folding>
         </state>
       </provider>

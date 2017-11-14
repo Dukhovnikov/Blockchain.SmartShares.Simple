@@ -30,13 +30,19 @@ namespace Blockchain.ConsoleApplication
                 ConnectionManager.TransmitterPort = remotePort;
                 ConnectionManager.ReceiverPort = localPort;
                 
-                var receiveThread = new Thread(new ThreadStart(ConnectionManager.ReceiveMessage));
-                receiveThread.Start();
+/*                var receiveThread = new Thread(new ThreadStart(ConnectionManager.ReceiveMessage));
+                receiveThread.Start();*/
+
+                var receiveMessage = ConnectionManager.ReceiveMessageAsync(new UdpClient(localPort));
                 
                 Console.Write("Введите сообщение для отправки: ");
                 var testMessage = Hash.ComputeSha256FromString(Console.ReadLine());
                 
                 ConnectionManager.SendMessage(testMessage);
+                
+                Console.Write($"Принятое сообщение: {HexConvert.FromBytes(receiveMessage.Result)}");
+
+                Console.ReadLine();
             }          
                 
             catch (Exception e)
