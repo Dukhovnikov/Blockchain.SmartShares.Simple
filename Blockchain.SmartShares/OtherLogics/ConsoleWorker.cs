@@ -1,5 +1,6 @@
 ﻿using System;
 using Blockchain.SmartShares;
+using Blockchain.SmartShares.OtherLogics;
 
 namespace Blockchain.ConsoleApplication
 {

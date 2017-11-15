@@ -19,7 +19,7 @@ namespace TestProject.ConsoleApplication
         {
             var pathtokeypair = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             var genesisBlock = Genesis.GenerateGenesisBlock(
-                FileManager.CombainPath(pathtokeypair, FileManager.FileTypeofBlockchain.KeyPairs)); 
+                FileManager.CombainPath(pathtokeypair, FileManager.FileTypeofBlockchain.KeyPair)); 
             
             var blockchain = new Blockchain.SmartShares.Blockchain()
             {             

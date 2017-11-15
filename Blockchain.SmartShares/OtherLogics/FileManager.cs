@@ -10,7 +10,7 @@ namespace Blockchain.ConsoleApplication
     {
         public enum FileTypeofBlockchain
         {
-            KeyPairs,
+            KeyPair,
             Block,
             Blockchain,
         }
@@ -21,7 +21,7 @@ namespace Blockchain.ConsoleApplication
             private static Dictionary<FileTypeofBlockchain, string> FileDictionary { get; } =
             new Dictionary<FileTypeofBlockchain, string>()
             {
-                {FileTypeofBlockchain.KeyPairs, "\\KeyPairs.txt"},
+                {FileTypeofBlockchain.KeyPair, "\\KeyPair.txt"},
                 {FileTypeofBlockchain.Block, "\\Block.txt"},
                 {FileTypeofBlockchain.Blockchain, "Blockchain.txt"}
             };
@@ -45,6 +45,13 @@ namespace Blockchain.ConsoleApplication
         public static string CombainPath(FileTypeofBlockchain filetype)
         {
             return DataDirectoryPath + $"\\{FileDictionary[filetype]}";
-        }                    
+        }
+
+        public static SmartShares.Blockchain LoadBlockchain(string path)
+        {
+            var blockchainBytes = File.ReadAllBytes(path);
+
+            return BlockchainUtil.DeserializeBlockchain(blockchainBytes);
+        }
     }
 }
