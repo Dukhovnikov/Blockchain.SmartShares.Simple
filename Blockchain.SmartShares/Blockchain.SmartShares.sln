@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain.ConsoleApplicati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain.SmartShares.UnitTests", "..\Blockchain.SmartShares.UnitTests\Blockchain.SmartShares.UnitTests.csproj", "{F51AB763-FB44-4FF7-8559-861258286806}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartShares", "..\SmartShares\SmartShares.csproj", "{674788D9-DD79-41A7-BB79-173D0471F09B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartShares.UnitTests", "..\SmartShares\SmartShares.UnitTests\SmartShares.UnitTests.csproj", "{0F941B51-9B71-49E1-A30B-C40DD997F7E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{F51AB763-FB44-4FF7-8559-861258286806}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F51AB763-FB44-4FF7-8559-861258286806}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F51AB763-FB44-4FF7-8559-861258286806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674788D9-DD79-41A7-BB79-173D0471F09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674788D9-DD79-41A7-BB79-173D0471F09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674788D9-DD79-41A7-BB79-173D0471F09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674788D9-DD79-41A7-BB79-173D0471F09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F941B51-9B71-49E1-A30B-C40DD997F7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F941B51-9B71-49E1-A30B-C40DD997F7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F941B51-9B71-49E1-A30B-C40DD997F7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F941B51-9B71-49E1-A30B-C40DD997F7E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
