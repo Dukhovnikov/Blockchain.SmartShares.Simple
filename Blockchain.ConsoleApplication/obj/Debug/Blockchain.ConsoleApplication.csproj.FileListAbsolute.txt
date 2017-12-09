@@ -24,3 +24,7 @@ D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\
 D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\System.Threading.Tasks.Extensions.dll
 D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\MessagePack.xml
 D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\MessagePack.dll
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\MessagePack.xml
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\System.Threading.Tasks.Extensions.xml
