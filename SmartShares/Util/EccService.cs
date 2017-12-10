@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using MessagePack;
 
-namespace SmartShares.Util
+namespace SmartShares
 {
     public static class EccService
     {

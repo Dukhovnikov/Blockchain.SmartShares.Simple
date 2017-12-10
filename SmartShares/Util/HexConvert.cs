@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SmartShares.Util
+namespace SmartShares
 {
     public static class HexConvert
     {

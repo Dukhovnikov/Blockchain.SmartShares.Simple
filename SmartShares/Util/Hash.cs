@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace SmartShares.Util
+namespace SmartShares
 {
     public static class Hash
     {
