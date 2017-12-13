@@ -52,5 +52,17 @@ namespace SmartShares
 
             return BlockchainUtil.DeserializeBlockchain(blockchainBytes);
         }
+        
+        public static Dictionary<byte[], Block> LoadBlockchain()
+        {
+            var blockchainBytes = File.ReadAllBytes(CombainPath(FileTypeofBlockchain.Blockchain));
+
+            return BlockchainUtil.DeserializeBlockchain(blockchainBytes);
+        }
+
+        public static void UpdateBlockchain(byte[] blockchain)
+        {
+            File.WriteAllBytes(CombainPath(FileTypeofBlockchain.Blockchain), blockchain);
+        }
     }
 }

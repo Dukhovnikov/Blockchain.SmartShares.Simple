@@ -61,6 +61,24 @@ namespace SmartShares
                 receiver.Close();
             }
         }
+
+        public static async Task<byte[]> ReceiveMessageAsync()
+        {
+            UdpReceiveResult result;
+            var client = new UdpClient(ReceiverPort);
+            
+            try
+            {
+                result = await client.ReceiveAsync();
+            }
+            
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
+            return result.Buffer;
+        }
         
         public static async Task<byte[]> ReceiveMessageAsync(UdpClient client)
         {

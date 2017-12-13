@@ -1,43 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Net;
-using System.Net.Sockets;
 using System.Runtime.InteropServices;
-using System.Security.Cryptography;
 using System.Text;
-using System.Threading;
 using System.Windows.Forms;
-using Blockchain.SmartShares;
-using Blockchain.SmartShares.Network;
-using Blockchain.SmartShares.OtherLogics;
-
+using Newtonsoft.Json;
+using SmartShares;
 
 namespace Blockchain.ConsoleApplication
 {
-    internal static class Program
+    public static class Program
     {       
         [STAThread]
         public static void Main(string[] args)
         {
-            TestRunner.Run();
-/*            var blockchain =
-                FileManager.LoadBlockchain(
-                    FileManager.CombainPath(
-                        FileManager.FileTypeofBlockchain.Blockchain));
+            Console.OutputEncoding = Encoding.GetEncoding(65001);
 
-            var keyPair = KeyPair.LoadFrom(FileManager.CombainPath(FileManager.FileTypeofBlockchain.KeyPair));
-                
-            var coinPocket = new CoinPocket()
-            {
-                KeyPair = keyPair,
-                Amount = CoinPocketManager.ParseFromBlockain(blockchain, keyPair.PublicKey)
-            };
+            var runner = new Runner();
             
-            ConsoleWorker.WriteDataCoinPocket(coinPocket);*/
-
-            #region Работает         
+            runner.Run();
+        }
+        
+        #region Работает         
 
 /*            try
             {
@@ -70,10 +54,8 @@ namespace Blockchain.ConsoleApplication
                 Console.WriteLine(e);
             }*/
 
-            #endregion
-        }
 
-        public static void AddGenesisToBlockchainAndSave(string directoryData)
+/*        public static void AddGenesisToBlockchainAndSave(string directoryData)
         {
             var genesisBlock =
                 Genesis.GenerateGenesisBlock(FileManager.CombainPath(
@@ -92,7 +74,7 @@ namespace Blockchain.ConsoleApplication
             File.WriteAllBytes(FileManager.CombainPath(
                 FileManager.FileTypeofBlockchain.Blockchain), 
                 serializeBlockchain);
-        }
-        
+        }*/
+        #endregion
     }
 }

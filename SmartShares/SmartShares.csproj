@@ -50,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Config.cs" />
+    <Compile Include="Extensions\ByteArrayConverter.cs" />
+    <Compile Include="Genesis.cs" />
     <Compile Include="Models.cs" />
     <Compile Include="Network\ConnectionManager.cs" />
     <Compile Include="Network\Peer.cs" />
@@ -58,6 +60,9 @@
     <Compile Include="OtherLogics\FileManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Runner\BlockchainUtil.cs" />
+    <Compile Include="Runner\Executor.cs" />
+    <Compile Include="Runner\Mining.cs" />
+    <Compile Include="Runner\Runner.cs" />
     <Compile Include="Runner\TestRunner.cs" />
     <Compile Include="Util\EccService.cs" />
     <Compile Include="Util\Hash.cs" />

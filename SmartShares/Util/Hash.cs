@@ -1,6 +1,8 @@
-﻿using System.Security.Cryptography;
+﻿using System.Collections.Generic;
+using System.Security.Cryptography;
 using System.Text;
 
+// ReSharper disable once CheckNamespace
 namespace SmartShares
 {
     public static class Hash

@@ -16,12 +16,12 @@ namespace Blockchain.SmartShares.Network
 
         public static void SendMessage(byte[] data)
         {
-            var senderUDPClient = new UdpClient();
+            var senderUdpClient = new UdpClient();
 
             try
             {
 
-                    senderUDPClient.Send(
+                    senderUdpClient.Send(
                         data, 
                         data.Length, 
                         "127.0.0.1", 
@@ -35,20 +35,20 @@ namespace Blockchain.SmartShares.Network
 
             finally
             {
-                senderUDPClient.Close();
+                senderUdpClient.Close();
             }
         }
 
         public static void ReceiveMessage()
         {
             var receiver = new UdpClient(ReceiverPort); // UdpClient для получения данных
-            IPEndPoint remoteIp = null; // адрес входящего подключения
+            IPEndPoint remoteIp = null; // Адрес входящего подключения
             
             try
             {
                 while(true)
                 {
-                    var data = receiver.Receive(ref remoteIp); // получаем данные
+                    var data = receiver.Receive(ref remoteIp); // Получаем данные
                     Console.WriteLine($"Собеседник: {HexConvert.FromBytes(data)}");
                 }
             }
@@ -65,6 +65,24 @@ namespace Blockchain.SmartShares.Network
         public static async Task<byte[]> ReceiveMessageAsync(UdpClient client)
         {
             UdpReceiveResult result;
+            
+            try
+            {
+                result = await client.ReceiveAsync();
+            }
+            
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
+            return result.Buffer;
+        }
+        
+        public static async Task<byte[]> ReceiveMessageAsync()
+        {
+            UdpReceiveResult result;
+            var client = new UdpClient(ReceiverPort);
             
             try
             {

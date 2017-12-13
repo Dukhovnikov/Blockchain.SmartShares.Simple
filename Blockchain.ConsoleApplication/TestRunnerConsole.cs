@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace Blockchain.ConsoleApplication
 {
-    public static class TestRunner
+    public static class TestRunnerConsole
     {
         private static Dictionary<byte[], Block> Blocks { get; set; }
         private static KeyPair KeyPair { get; set; }
@@ -121,5 +121,6 @@ namespace Blockchain.ConsoleApplication
             
             ConsoleWorker.WriteDataCoinPocket(coinPocket);
         }
+          
     }
 }

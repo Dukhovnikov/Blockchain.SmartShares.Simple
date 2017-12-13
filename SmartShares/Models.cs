@@ -15,13 +15,16 @@ namespace SmartShares
         public byte[] Hash { get; set; }
         
         [Key(2), JsonProperty("prevhash")]
-        public byte[] PreviousHash { get; set; }
+        public byte[] PreviousHash { get; set; }       
         
         [Key(3), JsonProperty("timestamp")]
         public DateTime Timestamp { get; set; }
         
         [Key(4), JsonProperty("transaction")]
         public Transaction Transaction { get; set; }
+        
+        [Key(5), JsonProperty("nonce")]
+        public int Nonce { get; set; }
 
         public Block Clone() =>
             new Block()
