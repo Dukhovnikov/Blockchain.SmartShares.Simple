@@ -30,3 +30,5 @@ E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\
 E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\SmartShares.dll
 D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\SmartShares.pdb
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\SmartShares.dll
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.ConsoleApplication\bin\Debug\SmartShares.pdb
