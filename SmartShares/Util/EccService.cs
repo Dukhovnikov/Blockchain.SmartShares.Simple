@@ -6,10 +6,15 @@ namespace SmartShares
     public static class EccService
     {
         /// <summary>
-        /// Получает именованную кривую nistP256.
+        /// Получение именованной кривой nistP256.
         /// </summary>
         private static readonly ECCurve Curve = ECCurve.NamedCurves.nistP256;
-
+        
+        /// <summary>
+        /// Генерация приватного и публичного ключей.
+        /// </summary>
+        /// <param name="privateKey"></param>
+        /// <param name="publicKey"></param>
         public static void GenerateKey(out byte[] privateKey, out byte[] publicKey)
         {
             //Представляет стандартные параметры для алгоритма шифрования на основе эллиптических кривых (ECC).
@@ -23,6 +28,9 @@ namespace SmartShares
             publicKey = ToBytes(param.Q);
         }
 
+        /// <summary>
+        /// Вычисление цифровой подписи для данных.
+        /// </summary>
         public static byte[] Sign(byte[] hash, byte[] privateKey, byte[] publicKey)
         {
             var param = new ECParameters()
@@ -36,6 +44,9 @@ namespace SmartShares
                 return dsa.SignHash(hash);
         }
 
+        /// <summary>
+        /// Верификация подписанных данных. 
+        /// </summary>
         public static bool Verify(byte[] hash, byte[] signature, byte[] publicKey)
         {
             var param = new ECParameters()
@@ -48,6 +59,9 @@ namespace SmartShares
                 return dsa.VerifyHash(hash, signature);
         }
 
+        /// <summary>
+        /// Проверка связки ключей.
+        /// </summary>
         public static bool TestKey(byte[] privateKey, byte[] publicKey)
         {
             byte[] testHash;
@@ -66,12 +80,18 @@ namespace SmartShares
             }
         }
 
+        /// <summary>
+        /// Конвертация публичного ключа в массив байтов.
+        /// </summary>
         private static byte[] ToBytes(ECPoint point)
         {
             return MessagePackSerializer.Serialize(
                 new FormattableEcPoint {X = point.X, Y = point.Y});
         }        
 
+        /// <summary>
+        /// Конвертация публичного ключа в стандартный тип (ECPoint class).
+        /// </summary>
         private static ECPoint ToEcPoint(byte[] bytes)
         {
             var ecPoint = MessagePackSerializer.Deserialize<FormattableEcPoint>(bytes);

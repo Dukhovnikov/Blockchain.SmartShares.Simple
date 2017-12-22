@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.Text;
 using MessagePack;
+using Newtonsoft.Json;
 
 namespace SmartShares
 {
@@ -8,6 +10,14 @@ namespace SmartShares
         public static byte[] SerializeBlockchain(Dictionary<byte[], Block> data)
         {
             return MessagePackSerializer.Serialize(data);
+        }
+
+        public static byte[] SerializeJsonByteChain(KeyValuePair<string, Block> data)
+        {
+            var json = JsonConvert.SerializeObject(data);
+            var byteJson = Encoding.UTF8.GetBytes(json);
+
+            return byteJson;
         }
 
         public static Dictionary<byte[], Block> DeserializeBlockchain(byte[] data)

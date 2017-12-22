@@ -11,50 +11,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Models.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SmartShares/Models.cs">
+      <file leaf-file-name="EccService.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../SmartShares/Util/EccService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="425">
+              <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
               <folding>
-                <marker date="1513166619042" expanded="true" signature="6:89" ph="..." />
-                <marker date="1513166619042" expanded="true" signature="161:1006" ph="{...}" />
-                <marker date="1513166619042" expanded="true" signature="804:999" ph="{...}" />
-                <marker date="1513166619042" expanded="true" signature="1071:1556" ph="{...}" />
-                <marker date="1513166619042" expanded="true" signature="1610:1811" ph="{...}" />
-                <marker date="1513166619042" expanded="true" signature="1862:2049" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mining.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../SmartShares/Runner/Mining.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <marker date="1513166619217" expanded="false" signature="6:186" ph="..." />
-                <marker date="1513166619217" expanded="true" signature="250:3950" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="276:3948" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="457:1649" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="662:1412" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="704:1116" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="1444:1519" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="1539:1601" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="1731:2208" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="1809:2009" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="2042:2108" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="2129:2198" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="2276:3283" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="2562:2867" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="2676:2747" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="2768:2853" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="2920:3242" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="3331:3709" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="3390:3676" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="3596:3662" ph="{...}" />
-                <marker date="1513166619217" expanded="true" signature="3784:3942" ph="{...}" />
+                <marker date="1513731937346" expanded="false" signature="6:54" ph="..." />
+                <marker date="1513731937346" expanded="true" signature="77:3512" ph="{...}" />
+                <marker date="1513731937346" expanded="true" signature="114:3510" ph="{...}" />
+                <marker date="1513731937346" expanded="false" signature="129:216" ph="/// Получение именованной кривой nistP256. ... " />
+                <marker date="1513731937346" expanded="false" signature="312:493" ph="/// Генерация приватного и публичного ключей. ... " />
+                <marker date="1513731937346" expanded="false" signature="577:1063" ph="{...}" />
+                <marker date="1513731937346" expanded="false" signature="1073:1161" ph="/// Вычисление цифровой подписи для данных. ... " />
+                <marker date="1513731937346" expanded="false" signature="1245:1535" ph="{...}" />
+                <marker date="1513731937346" expanded="true" signature="1311:1430" ph="{...}" />
+                <marker date="1513731937346" expanded="false" signature="1545:1626" ph="/// Верификация подписанных данных.  ... " />
+                <marker date="1513731937346" expanded="false" signature="1709:1980" ph="{...}" />
+                <marker date="1513731937346" expanded="true" signature="1775:1862" ph="{...}" />
+                <marker date="1513731937346" expanded="false" signature="1990:2062" ph="/// Проверка связки ключей. ... " />
+                <marker date="1513731937346" expanded="false" signature="2134:2542" ph="{...}" />
+                <marker date="1513731937346" expanded="true" signature="2294:2456" ph="{...}" />
+                <marker date="1513731937346" expanded="true" signature="2487:2532" ph="{...}" />
+                <marker date="1513731937346" expanded="true" signature="2552:2646" ph="/// Конвертация публичного ключа в массив байтов. ... " />
+                <marker date="1513731937346" expanded="false" signature="2699:2839" ph="{...}" />
+                <marker date="1513731937346" expanded="false" signature="2857:2969" ph="/// Конвертация публичного ключа в стандартный тип (ECPoint class). ... " />
+                <marker date="1513731937346" expanded="false" signature="3024:3195" ph="{...}" />
+                <marker date="1513731937346" expanded="true" signature="3345:3504" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -66,41 +49,41 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../SmartShares/Runner/Mining.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SmartShares/Util/Hash.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SmartShares/Util/EccService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SmartShares/Models.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Network/ConnectionManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/packages.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Network/Peer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/EccServiceTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SmartShares/OtherLogics/ConsoleWorker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../SmartShares/OtherLogics/CoinPocket.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/KeyPairTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SmartShares/Runner/BlockchainUtil.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SmartShares/Config.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BlockchainUtil.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Blockchain.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Genesis.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/KeyPair.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EccService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Transaction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SmartShares/Util/HexConvert.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SmartShares/Runner/Mining.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/KeyPairTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/EccServiceTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Blockchain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/KeyPair.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Block.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OtherLogics/FileManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SmartShares/Runner/TestRunner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EccService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hash.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/packages.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HexConvert.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/CoinPocketManagerTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Connecter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SmartShares/Network/ConnectionManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SmartShares/OtherLogics/FileManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Genesis.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OtherLogics/ConsoleWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OtherLogics/FileManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SmartShares/Network/ConnectionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SmartShares/Config.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SmartShares/OtherLogics/FileManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SmartShares/OtherLogics/ConsoleWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SmartShares/Runner/BlockchainUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SmartShares/Runner/TestRunner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SmartShares/Util/EccService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SmartShares/Util/HexConvert.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SmartShares/Util/Hash.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Network/ConnectionManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OtherLogics/CoinPocket.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SmartShares/Models.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Network/Peer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.SmartShares.UnitTests/CoinPocketManagerTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/TrashData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HexConvert.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BlockchainUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Blockchain.ConsoleApplication/Connecter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -136,7 +119,6 @@
         <option value="$PROJECT_DIR$/../SmartShares/SmartShares.UnitTests/Class1.cs" />
         <option value="$PROJECT_DIR$/Hash.cs" />
         <option value="$PROJECT_DIR$/../SmartShares/Util/HexConvert.cs" />
-        <option value="$PROJECT_DIR$/../SmartShares/Util/EccService.cs" />
         <option value="$PROJECT_DIR$/../SmartShares/Config.cs" />
         <option value="$PROJECT_DIR$/../SmartShares/Runner/BlockchainUtil.cs" />
         <option value="$PROJECT_DIR$/../SmartShares/Network/Peer.cs" />
@@ -156,6 +138,7 @@
         <option value="$PROJECT_DIR$/../SmartShares/Runner/Runner.cs" />
         <option value="$PROJECT_DIR$/../SmartShares/Runner/Mining.cs" />
         <option value="$PROJECT_DIR$/../SmartShares/OtherLogics/CoinPocket.cs" />
+        <option value="$PROJECT_DIR$/../SmartShares/Util/EccService.cs" />
       </list>
     </option>
   </component>
@@ -192,7 +175,18 @@
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Blockchain.SmartShares (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Blockchain.SmartShares (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Blockchain.SmartShares (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SmartShares" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Blockchain.SmartShares (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SmartShares" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Util" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -222,37 +216,43 @@
   </component>
   <component name="RunManager" selected=".NET Project.Blockchain.ConsoleApplication">
     <configuration name="Blockchain.ConsoleApplication" type="DotNetProject" factoryName=".NET Project" temporary="true">
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/Blockchain.ConsoleApplication.csproj" />
-      <option name="PROJECT_KIND" value="Console" />
-      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
       <option name="EXE_PATH" value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/bin/Debug/Blockchain.ConsoleApplication.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
       <option name="USE_MONO" value="0" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <envs />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/../Blockchain.ConsoleApplication/Blockchain.ConsoleApplication.csproj" />
+      <option name="PROJECT_OUTPUT_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
     </configuration>
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="PROJECT_PATH" value="" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
       <option name="USE_MONO" value="0" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <envs />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_OUTPUT_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
     </configuration>
     <configuration name="TestProject.ConsoleApplication" type="DotNetProject" factoryName=".NET Project" temporary="true">
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/../TestProject.ConsoleApplication/TestProject.ConsoleApplication.csproj" />
-      <option name="PROJECT_KIND" value="Console" />
-      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7" />
       <option name="EXE_PATH" value="$PROJECT_DIR$/../TestProject.ConsoleApplication/bin/Debug/TestProject.ConsoleApplication.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../TestProject.ConsoleApplication/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
       <option name="USE_MONO" value="0" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <envs />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/../TestProject.ConsoleApplication/TestProject.ConsoleApplication.csproj" />
+      <option name="PROJECT_OUTPUT_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
@@ -382,11 +382,12 @@
       <workItem from="1513165195358" duration="1251000" />
       <workItem from="1513171882480" duration="1008000" />
       <workItem from="1513341147052" duration="252000" />
+      <workItem from="1513730213784" duration="1424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156695000" />
+    <option name="totallyTimeSpent" value="158119000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,7 +399,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -409,7 +410,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21075268" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1369936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -651,13 +652,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SmartShares/Genesis.cs" />
-    <entry file="file://$PROJECT_DIR$/../SmartShares/Util/EccService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SmartShares/Network/ConnectionManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1095">
@@ -709,47 +703,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SmartShares/Models.cs">
+    <entry file="file://$PROJECT_DIR$/../SmartShares/Runner/Mining.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <marker date="1513166619042" expanded="true" signature="6:89" ph="..." />
-            <marker date="1513166619042" expanded="true" signature="161:1006" ph="{...}" />
-            <marker date="1513166619042" expanded="true" signature="804:999" ph="{...}" />
-            <marker date="1513166619042" expanded="true" signature="1071:1556" ph="{...}" />
-            <marker date="1513166619042" expanded="true" signature="1610:1811" ph="{...}" />
-            <marker date="1513166619042" expanded="true" signature="1862:2049" ph="{...}" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SmartShares/Runner/Mining.cs">
+    <entry file="file://$PROJECT_DIR$/../SmartShares/Models.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SmartShares/Util/EccService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
           <folding>
-            <marker date="1513166619217" expanded="false" signature="6:186" ph="..." />
-            <marker date="1513166619217" expanded="true" signature="250:3950" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="276:3948" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="457:1649" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="662:1412" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="704:1116" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="1444:1519" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="1539:1601" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="1731:2208" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="1809:2009" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="2042:2108" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="2129:2198" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="2276:3283" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="2562:2867" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="2676:2747" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="2768:2853" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="2920:3242" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="3331:3709" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="3390:3676" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="3596:3662" ph="{...}" />
-            <marker date="1513166619217" expanded="true" signature="3784:3942" ph="{...}" />
+            <marker date="1513731937346" expanded="false" signature="6:54" ph="..." />
+            <marker date="1513731937346" expanded="true" signature="77:3512" ph="{...}" />
+            <marker date="1513731937346" expanded="true" signature="114:3510" ph="{...}" />
+            <marker date="1513731937346" expanded="false" signature="129:216" ph="/// Получение именованной кривой nistP256. ... " />
+            <marker date="1513731937346" expanded="false" signature="312:493" ph="/// Генерация приватного и публичного ключей. ... " />
+            <marker date="1513731937346" expanded="false" signature="577:1063" ph="{...}" />
+            <marker date="1513731937346" expanded="false" signature="1073:1161" ph="/// Вычисление цифровой подписи для данных. ... " />
+            <marker date="1513731937346" expanded="false" signature="1245:1535" ph="{...}" />
+            <marker date="1513731937346" expanded="true" signature="1311:1430" ph="{...}" />
+            <marker date="1513731937346" expanded="false" signature="1545:1626" ph="/// Верификация подписанных данных.  ... " />
+            <marker date="1513731937346" expanded="false" signature="1709:1980" ph="{...}" />
+            <marker date="1513731937346" expanded="true" signature="1775:1862" ph="{...}" />
+            <marker date="1513731937346" expanded="false" signature="1990:2062" ph="/// Проверка связки ключей. ... " />
+            <marker date="1513731937346" expanded="false" signature="2134:2542" ph="{...}" />
+            <marker date="1513731937346" expanded="true" signature="2294:2456" ph="{...}" />
+            <marker date="1513731937346" expanded="true" signature="2487:2532" ph="{...}" />
+            <marker date="1513731937346" expanded="true" signature="2552:2646" ph="/// Конвертация публичного ключа в массив байтов. ... " />
+            <marker date="1513731937346" expanded="false" signature="2699:2839" ph="{...}" />
+            <marker date="1513731937346" expanded="false" signature="2857:2969" ph="/// Конвертация публичного ключа в стандартный тип (ECPoint class). ... " />
+            <marker date="1513731937346" expanded="false" signature="3024:3195" ph="{...}" />
+            <marker date="1513731937346" expanded="true" signature="3345:3504" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,29 @@
+﻿<Window x:Class="Blockchain.WPF.WindowPersonalArea"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blockchain.WPF"
+        mc:Ignorable="d"
+        Title="PersonalArea" Height="373.318" Width="888.553" FontFamily="Baskerville Old Face" FontSize="16">
+    <Grid Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}">
+        <GroupBox Name="GroupBoxInformationAboutUser" Header="Information" Height="89" VerticalAlignment="Top" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}">
+            <Grid>
+                <TextBlock Name="TextBlockInformationId" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="ID:" VerticalAlignment="Top"/>
+                <TextBlock Name="TextBlockInformationAct" HorizontalAlignment="Left" Margin="10,33,0,0" TextWrapping="Wrap" Text="ACT:" VerticalAlignment="Top"/>
+                <TextBlock Name="TextBlockId" HorizontalAlignment="Left" Margin="68,10,0,0" TextWrapping="Wrap" Text="InformationID" VerticalAlignment="Top" Width="904"/>
+                <TextBlock Name="TextBlockAct" HorizontalAlignment="Left" Margin="68,33,0,0" TextWrapping="Wrap" Text="InformationACT" VerticalAlignment="Top" Width="120"/>
+
+            </Grid>
+        </GroupBox>
+        <GroupBox Name="GroupBoxToPay" Header="Make transaction" Height="136" VerticalAlignment="Top" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" Margin="0,94,0,0">
+            <Grid>
+                <Button Name="ButtonToPay" Content="To pay" Margin="217,32,554,0" Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontFamily="Baskerville Old Face" Height="22" VerticalAlignment="Top" Click="ButtonToPay_Click" BorderBrush="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" />
+                <TextBlock Name="TextBlockInformationRecipientId" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Recipient ID:" VerticalAlignment="Top"/>
+                <TextBlock Name="TextBlockInformationAmountAct" HorizontalAlignment="Left" Margin="10,33,0,0" TextWrapping="Wrap" Text="Amount ACT:" VerticalAlignment="Top"/>
+                <TextBox Name="TextBoxRecipientId" HorizontalAlignment="Left" Height="22" Margin="114,9,0,0" TextWrapping="Wrap" Text="Recipient" VerticalAlignment="Top" Width="745" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                <TextBox Name="TextBoxAmountAct" HorizontalAlignment="Left" Height="22" Margin="114,32,0,0" TextWrapping="Wrap" Text="Amount" VerticalAlignment="Top" Width="98" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

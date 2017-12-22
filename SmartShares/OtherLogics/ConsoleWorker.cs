@@ -12,7 +12,7 @@ namespace SmartShares
                 HexConvert.FromBytes(pocket.KeyPair.PublicKey));
             Console.WriteLine("You name is {0}", pocket.UserName);
             Console.WriteLine("You've got {0} ACT", CoinPocketManager.ParseFromBlockainFix(FileManager.LoadBlockchain(), pocket.KeyPair.PublicKey));
-            Console.WriteLine("You've got {0} $", pocket.AmountDollars);
+            //Console.WriteLine("You've got {0} $", pocket.AmountDollars);
         }
 
         public static CoinPocket CreateNewUser()
@@ -28,7 +28,7 @@ namespace SmartShares
             return new CoinPocket()
             {
                 UserName = name,
-                AmountDollars = (ulong) new Random().Next(1000),
+                //AmountDollars = (ulong) new Random().Next(1000),
                 KeyPair = new KeyPair()
                 {
                     PrivateKey = privateKey,

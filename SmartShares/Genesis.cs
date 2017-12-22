@@ -24,7 +24,7 @@ namespace SmartShares
             return blockchain;
         }
         
-        public static Dictionary<byte[], Block> GenerateBlockchainGenesis(KeyPair keyPair)
+        public static Dictionary<string, Block> GenerateBlockchainGenesis(KeyPair keyPair)
         {
             var outEntry = new OutEntry()
             {
@@ -49,14 +49,13 @@ namespace SmartShares
                 }
             };
                                    
-            var blockchain = new Dictionary<byte[], Block>()
+            var blockchain = new Dictionary<string, Block>()
             {
-                {genesisHash, genesisBlock}
+                {HexConvert.FromBytes(genesisHash), genesisBlock}
             };
 
             return blockchain;
-        }
-        
+        }        
         public static Block GenerateGenesisBlock(string path)
         {
             var keyPair = KeyPair.LoadFrom(path);

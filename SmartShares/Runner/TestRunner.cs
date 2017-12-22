@@ -110,7 +110,7 @@ namespace SmartShares
 
             var coinPocket = new CoinPocket()
             {
-                AmountDollars = 1000,
+                //AmountDollars = 1000,
                 ReceivePort = 8888,
                 UserName = "Creator",
                 KeyPair = new KeyPair()
@@ -139,9 +139,9 @@ namespace SmartShares
 
             var blockchain = Genesis.GenerateBlockchainGenesis(pocket.KeyPair);
             
-            File.WriteAllBytes(FileManager.CombainPath(
-                    FileManager.FileTypeofBlockchain.Blockchain),
-                BlockchainUtil.SerializeBlockchain(blockchain));
+            //File.WriteAllBytes(FileManager.CombainPath(
+            //        FileManager.FileTypeofBlockchain.Blockchain),
+            //    BlockchainUtil.SerializeBlockchain(blockchain));
         }
         
         public static void ViewBlockchain()

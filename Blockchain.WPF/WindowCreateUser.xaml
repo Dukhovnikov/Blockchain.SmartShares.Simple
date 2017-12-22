@@ -1,0 +1,14 @@
+﻿<Window x:Class="Blockchain.WPF.WindowCreateUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blockchain.WPF"
+        mc:Ignorable="d"
+        Title="Create User" Height="198" Width="412.666" FontFamily="Baskerville Old Face" FontSize="16">
+    <Grid Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}">
+        <TextBox Name="TextBoxUsername" TextAlignment="Center" Height="23" Margin="10,43,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" />
+        <TextBlock TextAlignment="Center" Margin="10,10,10,0" TextWrapping="Wrap" Text="Please, enter your username" VerticalAlignment="Top" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+        <Button Name="ButtonUploadAccount" Content="Create" Margin="154,0,151,31" Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" FontFamily="Baskerville Old Face" Height="22" VerticalAlignment="Bottom" Click="ButtonUploadAccount_Click" />
+    </Grid>
+</Window>
