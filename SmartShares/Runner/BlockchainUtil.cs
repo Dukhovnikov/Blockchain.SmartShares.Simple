@@ -12,6 +12,11 @@ namespace SmartShares
             return MessagePackSerializer.Serialize(data);
         }
 
+        public static byte[] SerializeTransaction(Transaction data)
+        {
+            return MessagePackSerializer.Serialize(data);
+        }
+
         public static byte[] SerializeJsonByteChain(KeyValuePair<string, Block> data)
         {
             var json = JsonConvert.SerializeObject(data);
