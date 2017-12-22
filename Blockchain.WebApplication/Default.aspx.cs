@@ -39,8 +39,7 @@ namespace Blockchain.WebApplication
             //var selectedUser = DropDownList1.SelectedValue;
             //var user = DataManager.UploadUser(selectedUser);
             //TextArea1.Value = JsonConvert.SerializeObject(user, Formatting.Indented);
-            LabelMiningStatus.Text = "";
-
+            
             var receiver = new UdpClient(8889);
             IPEndPoint remoteIp = null;
 

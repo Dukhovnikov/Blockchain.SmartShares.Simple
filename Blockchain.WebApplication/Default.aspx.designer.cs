@@ -13,6 +13,15 @@ namespace Blockchain.WebApplication {
     public partial class Default {
         
         /// <summary>
+        /// Label3 элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label3;
+        
+        /// <summary>
         /// Label2 элемент управления.
         /// </summary>
         /// <remarks>
@@ -40,13 +49,13 @@ namespace Blockchain.WebApplication {
         protected global::System.Web.UI.WebControls.LinkButton LinkButtonUploadMiningUser;
         
         /// <summary>
-        /// LabelMiningStatus элемент управления.
+        /// Label4 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelMiningStatus;
+        protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
         /// Label1 элемент управления.
@@ -56,5 +65,14 @@ namespace Blockchain.WebApplication {
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
+        
+        /// <summary>
+        /// Label5 элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label5;
     }
 }
