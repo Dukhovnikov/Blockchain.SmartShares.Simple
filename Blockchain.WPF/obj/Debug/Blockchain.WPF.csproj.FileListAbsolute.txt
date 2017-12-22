@@ -25,3 +25,13 @@ D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\WindowCre
 D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\WindowCreateUser.baml
 D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\WindowPersonalArea.g.cs
 D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\WindowPersonalArea.baml
+C:\Users\Виктория\Documents\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\bin\Debug\Blockchain.WPF.exe.config
+C:\Users\Виктория\Documents\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\Blockchain.WPF.exe
+C:\Users\Виктория\Documents\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\Blockchain.WPF.pdb
+C:\Users\Виктория\Documents\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\Blockchain.WPF.csprojResolveAssemblyReference.cache
+C:\Users\Виктория\Documents\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Виктория\Documents\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\WindowCreateUser.g.cs
+C:\Users\Виктория\Documents\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\WindowPersonalArea.g.cs
+C:\Users\Виктория\Documents\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\App.g.cs
+C:\Users\Виктория\Documents\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\Blockchain.WPF_MarkupCompile.cache
+C:\Users\Виктория\Documents\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\Blockchain.WPF_MarkupCompile.lref

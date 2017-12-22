@@ -34,7 +34,17 @@ namespace Blockchain.WPF
             _userCoinPocket = user;
             GroupBoxInformationAboutUser.Header = user.UserName;
             TextBlockId.Text = HexConvert.FromBytes(user.KeyPair.PublicKey);
-            TextBlockAct.Text = "12 @";
+
+            var amount = int.Parse(Blockchain.ParseFromBlockain())
+            if (true)
+            {
+                TextBlockAct.Text = "12 @";
+
+            }
+            else
+            {
+
+            }
 
             TextBoxRecipientId.Text = "";
             TextBoxAmountAct.Text = "";
@@ -42,7 +52,8 @@ namespace Blockchain.WPF
 
         private void ButtonToPay_Click(object sender, RoutedEventArgs e)
         {
-
+            var transmitUserHash = TextBoxRecipientId.Text;
+            
         }
     }
 }

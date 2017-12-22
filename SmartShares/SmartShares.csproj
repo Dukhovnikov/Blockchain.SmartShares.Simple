@@ -66,6 +66,7 @@
     <Compile Include="Runner\Mining.cs" />
     <Compile Include="Runner\Runner.cs" />
     <Compile Include="Runner\TestRunner.cs" />
+    <Compile Include="Util\Blockchain.cs" />
     <Compile Include="Util\EccService.cs" />
     <Compile Include="Util\Hash.cs" />
     <Compile Include="Util\HexConvert.cs" />
