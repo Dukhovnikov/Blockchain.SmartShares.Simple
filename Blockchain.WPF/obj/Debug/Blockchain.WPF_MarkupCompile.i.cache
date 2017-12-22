@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\
 Blockchain.WPF
 none
 false
 DEBUG;TRACE
-D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.WPF\App.xaml
+E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\App.xaml
 3-1530216848
 
-11-2121102554
-14-236288210
+11-2088609919
+14-376236140
 MainWindow.xaml;WindowCreateUser.xaml;WindowPersonalArea.xaml;
 
 True

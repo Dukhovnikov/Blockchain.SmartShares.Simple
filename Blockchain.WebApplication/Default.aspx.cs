@@ -45,14 +45,16 @@ namespace Blockchain.WebApplication
 
             try
             {
-                while (true)
-                {
                     var data = receiver.Receive(ref remoteIp);
                     var json = Encoding.UTF8.GetString(data);
-                    Session["last chain"] = JsonConvert.DeserializeObject<KeyValuePair<string, Block>>(json);
+                    var trabsaction = MessagePackSerializer.Deserialize<Transaction>(data);
 
-                    break;
-                }
+                    var block = Mining.ComputeBlock(trabsaction);
+
+                    var chain = new KeyValuePair<string, Block>(DataManager.UploadBlockchainDictionary().Last().Key,
+                        block);
+
+                    Session["last chain"] = chain;
             }
             catch (Exception ex)
             {
@@ -60,9 +62,11 @@ namespace Blockchain.WebApplication
             }
             finally
             {
-                var jsonByte = BlockchainUtil.SerializeJsonByteChain((KeyValuePair<string, Block>) Session["last chain"]);
-                var jsonString = Encoding.UTF8.GetString(jsonByte);
-                Label1.Text = jsonString.ToJonHtml();
+                //var jsonByte = BlockchainUtil.SerializeJsonByteChain((KeyValuePair<string, Block>) Session["last chain"]);
+                //var jsonString = Encoding.UTF8.GetString(jsonByte);
+                var json = JsonConvert.SerializeObject(
+                    (KeyValuePair<string, Block>) Session["last chain"]);
+                Label1.Text = json.ToJonHtml();
                 receiver.Close();
             }
         }

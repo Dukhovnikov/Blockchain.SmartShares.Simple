@@ -74,5 +74,8 @@ namespace SmartShares
         
         [Key(1), JsonProperty("val")]
         public ulong Value { get; set; }
+
+        //[Key(2), JsonProperty("hash")]
+        //public byte[] hash { get; set; }
     }
 }

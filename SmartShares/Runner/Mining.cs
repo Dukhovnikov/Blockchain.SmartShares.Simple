@@ -12,8 +12,8 @@ namespace SmartShares
 {
     public class Mining
     {
-        private static Dictionary<byte[], Block> CurrentBlockchain { get; set; } 
-            = FileManager.LoadBlockchain();
+        private static Dictionary<string, Block> CurrentBlockchain { get; set; } 
+            = DataManager.UploadBlockchainDictionary();
 
         
         public static bool RunMining()
@@ -30,7 +30,7 @@ namespace SmartShares
                     var transaction = MessagePackSerializer.Deserialize<Transaction>(data);
 
                     var newBlock = ComputeBlock(transaction);
-                    CurrentBlockchain.Add(CurrentBlockchain.Values.Last().Hash, newBlock);
+                    //CurrentBlockchain.Add(CurrentBlockchain.Values.Last().Hash, newBlock);
                     
                     break;
                 }
@@ -77,9 +77,9 @@ namespace SmartShares
             }
         }
 
-        private static Block ComputeBlock(Transaction transaction)
+        public static Block ComputeBlock(Transaction transaction)
         {
-            CurrentBlockchain = FileManager.LoadBlockchain();
+            CurrentBlockchain = DataManager.UploadBlockchainDictionary();
             
             var check = true;
             var previousNonce = CurrentBlockchain.Values.Last().Nonce;
@@ -87,7 +87,7 @@ namespace SmartShares
             
             while (check)
             {
-                if (!CurrentBlockchain.ContainsKey(Hash.ComputeSha256FromString(nonce.ToString())))
+                if (!CurrentBlockchain.ContainsKey(HexConvert.FromBytes(Hash.ComputeSha256FromString(nonce.ToString()))))
                 {
                     check = false;
                 }
@@ -101,7 +101,7 @@ namespace SmartShares
             {
                 Id = CurrentBlockchain.Values.Last().Id++,
                 Hash = Hash.ComputeSha256FromString(nonce.ToString()),
-                PreviousHash = CurrentBlockchain.Keys.Last(),
+                PreviousHash = HexConvert.ToBytes(CurrentBlockchain.Keys.Last()),
                 Nonce = nonce,
                 Timestamp = DateTime.Now,
                 Transaction = transaction

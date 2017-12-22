@@ -22,3 +22,6 @@ E:\GitHub\Blockchain.SmartShares.Simple\SmartShares\obj\Debug\SmartShares.csproj
 E:\GitHub\Blockchain.SmartShares.Simple\SmartShares\obj\Debug\SmartShares.csproj.CoreCompileInputs.cache
 E:\GitHub\Blockchain.SmartShares.Simple\SmartShares\obj\Debug\SmartShares.dll
 E:\GitHub\Blockchain.SmartShares.Simple\SmartShares\obj\Debug\SmartShares.pdb
+C:\Users\Виктория\Documents\GitHub\Blockchain.SmartShares.Simple\SmartShares\obj\Debug\SmartShares.csprojResolveAssemblyReference.cache
+C:\Users\Виктория\Documents\GitHub\Blockchain.SmartShares.Simple\SmartShares\obj\Debug\SmartShares.dll
+C:\Users\Виктория\Documents\GitHub\Blockchain.SmartShares.Simple\SmartShares\obj\Debug\SmartShares.pdb

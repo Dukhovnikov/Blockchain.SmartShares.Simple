@@ -65,5 +65,12 @@ namespace SmartShares
             var jsonBlockchain = File.ReadAllText(FileDictionary["Blockchain"]);
             return jsonBlockchain;
         }
+
+        public static Dictionary<string, Block> UploadBlockchainDictionary()
+        {
+            var jsonBlockchain = File.ReadAllText(FileDictionary["Blockchain"]);
+            var blockchain = JsonConvert.DeserializeObject<Dictionary<string, Block>>(jsonBlockchain);
+            return blockchain;
+        }
     }
 }
