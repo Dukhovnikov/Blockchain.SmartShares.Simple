@@ -34,6 +34,7 @@ namespace Blockchain.WPF
         public WindowPersonalArea(CoinPocket user)
         {
             InitializeComponent();
+            
             _userCoinPocket = user;
             GroupBoxInformationAboutUser.Header = user.UserName;
             TextBlockId.Text = HexConvert.FromBytes(user.KeyPair.PublicKey);
@@ -41,6 +42,7 @@ namespace Blockchain.WPF
             var amount = int.Parse(Executor
                 .ParseFromBlockain(DataManager.UploadBlockchainDictionary(), user.KeyPair.PublicKey).ToString());
             Amount = amount;
+            
             if (amount > -1)
             {
                 TextBlockAct.Text = amount + " @";
@@ -57,25 +59,32 @@ namespace Blockchain.WPF
 
         private void ButtonToPay_Click(object sender, RoutedEventArgs e)
         {
+            if (int.Parse(TextBoxAmountAct.Text) > Amount)
+            {
+                MessageBox.Show("Error!", "You haven't avaliable ACT for makking transaction.", MessageBoxButton.OK,
+                    MessageBoxImage.Error);
+                return;
+            }
+            
             var recipientUserHash = HexConvert.ToBytes(TextBoxRecipientId.Text);
 
             var inEntry = new InEntry()
             {
                 PublicKey = _userCoinPocket.KeyPair.PublicKey,
-                PreviuosOut = _userCoinPocket.KeyPair.PublicKey
+                Amount = Amount
             };
 
-            var outEntry = new List<OutEntry>()
+            var outEntry = new List<OutEntry>(15)
             {
                 new OutEntry()
                 {
                     RecipientHash = recipientUserHash,
-                    Value = ulong.Parse(TextBoxAmountAct.Text)
+                    Value = int.Parse(TextBoxAmountAct.Text)
                 },
                 new OutEntry()
                 {
                     RecipientHash = _userCoinPocket.KeyPair.PublicKey,
-                    Value = (ulong) Amount - ulong.Parse(TextBoxAmountAct.Text)
+                    Value = Amount - int.Parse(TextBoxAmountAct.Text)
                 }
             };
 
@@ -100,7 +109,7 @@ namespace Blockchain.WPF
                     message,
                     message.Length,
                     "127.0.0.1",
-                    8889);
+                    9999);
             }
 
             catch
@@ -112,6 +121,16 @@ namespace Blockchain.WPF
             {
                 senderUdpClient.Close();
             }
+        }
+
+        private void ButtonUploadRecipient_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }

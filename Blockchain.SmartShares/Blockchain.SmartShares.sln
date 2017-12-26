@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain.SmartShares", "Blockchain.SmartShares.csproj", "{C146BE58-F118-4EC3-B540-6D984D7777FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain.Alpha", "Blockchain.Alpha.csproj", "{C146BE58-F118-4EC3-B540-6D984D7777FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain.ConsoleApplication", "..\Blockchain.ConsoleApplication\Blockchain.ConsoleApplication.csproj", "{6EA02A93-76A7-44F4-B729-81FAD5690CF2}"
 EndProject

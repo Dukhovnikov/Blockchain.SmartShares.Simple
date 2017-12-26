@@ -41,7 +41,7 @@ namespace SmartShares
     public sealed class Transaction
     {
         [Key(0), JsonProperty("id")]
-        public ulong Id { get; set; }
+        public int Id { get; set; }            
         
         [Key(1), JsonProperty("sign")]
         public byte[] Signature { get; set; }
@@ -50,20 +50,20 @@ namespace SmartShares
         public DateTime Timestamp { get; set; }
         
         [Key(3), JsonProperty("in")]
-        public IList<InEntry> InEntries { get; set; }
+        public List<InEntry> InEntries { get; set; }
         
         [Key(4), JsonProperty("out")]
-        public IList<OutEntry> OutEntries { get; set; }
+        public List<OutEntry> OutEntries { get; set; }
     }
     
     [MessagePackObject]
     public class InEntry
-    {
-        [Key(0), JsonProperty("prevOut")]
-        public byte[] PreviuosOut { get; set; }
-        
-        [Key(1), JsonProperty("publicKey")]
+    {        
+        [Key(0), JsonProperty("payerId")]
         public byte[] PublicKey { get; set; }
+        
+        [Key(1), JsonProperty("cash")]
+        public int Amount { get; set; }
     }
 
     [MessagePackObject]
@@ -73,9 +73,6 @@ namespace SmartShares
         public byte[] RecipientHash { get; set; }
         
         [Key(1), JsonProperty("val")]
-        public ulong Value { get; set; }
-
-        //[Key(2), JsonProperty("hash")]
-        //public byte[] hash { get; set; }
+        public int Value { get; set; }
     }
 }

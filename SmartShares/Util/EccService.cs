@@ -3,7 +3,7 @@ using MessagePack;
 
 namespace SmartShares
 {
-    public static class EccService
+        public static class EccService
     {
         /// <summary>
         /// Получение именованной кривой nistP256.

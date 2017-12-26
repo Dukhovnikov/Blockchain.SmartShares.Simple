@@ -14,7 +14,7 @@ namespace SmartShares
 {
     public class Runner
     {
-        public static Dictionary<byte[], Block> Blockchain { get; set; }
+        private static Dictionary<byte[], Block> Blockchain { get; set; }
         
         public void Run()
         {
@@ -94,12 +94,13 @@ namespace SmartShares
                         Console.WriteLine();
                         Console.WriteLine("Please, enter amount ACT would you want to send:");
 
-                        var amountACTforsend = ulong.Parse(Console.ReadLine());
+                        var amountACTforsend = int.Parse(Console.ReadLine());
 
                         var inEntry = new InEntry()
                         {
-                            PreviuosOut = Blockchain.Values.Last().Transaction.OutEntries.Last().RecipientHash,
-                            PublicKey = pocket.KeyPair.PublicKey
+                            //PreviuosOut = Blockchain.Values.Last().Transaction.OutEntries.Last().RecipientHash,
+                            PublicKey = pocket.KeyPair.PublicKey,
+                            Amount = (int) amountACTforsend
                         };
 
                         var outEntry = new OutEntry()

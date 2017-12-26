@@ -54,9 +54,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Blockchain.SmartShares\Blockchain.SmartShares.csproj">
+    <ProjectReference Include="..\Blockchain.SmartShares\Blockchain.Alpha.csproj">
       <Project>{c146be58-f118-4ec3-b540-6d984d7777fe}</Project>
-      <Name>Blockchain.SmartShares</Name>
+      <Name>Blockchain.Alpha</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

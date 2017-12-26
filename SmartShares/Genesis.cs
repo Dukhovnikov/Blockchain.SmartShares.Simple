@@ -23,7 +23,7 @@ namespace SmartShares
 
             return blockchain;
         }
-        
+
         public static Dictionary<string, Block> GenerateBlockchainGenesis(KeyPair keyPair)
         {
             var outEntry = new OutEntry()
@@ -84,6 +84,10 @@ namespace SmartShares
             return genesisBlock;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public static Block GenerateGenesisBlock(KeyPair keyPair)
         {
             var outEntry = new OutEntry()
@@ -111,6 +115,10 @@ namespace SmartShares
             return genesisBlock;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public static Block GenerateGenesisBlock()
         {
             EccService.GenerateKey(out var privateKey, out var publicKey);

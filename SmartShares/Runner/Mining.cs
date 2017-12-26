@@ -99,7 +99,7 @@ namespace SmartShares
 
             var newBlock = new Block()
             {
-                Id = CurrentBlockchain.Values.Last().Id++,
+                Id = CurrentBlockchain.Values.Last().Id + 1,
                 Hash = Hash.ComputeSha256FromString(nonce.ToString()),
                 PreviousHash = HexConvert.ToBytes(CurrentBlockchain.Keys.Last()),
                 Nonce = nonce,
@@ -112,12 +112,12 @@ namespace SmartShares
 
         private static int FindHash(int nonce)
         {
-            for (int i = nonce; i < 100000; i++)
+            for (int i = nonce; i < 100000000; i++)
             {
                 var dataHash = Hash.ComputeSha256FromString(i.ToString());
                 var dataHashStr = HexConvert.FromBytes(dataHash); 
 
-                if (dataHashStr[63].Equals('0'))
+                if (dataHashStr[dataHashStr.Length - 2].Equals('0'))
                 {
                     return i;
                 }

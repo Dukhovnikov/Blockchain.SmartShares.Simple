@@ -9,6 +9,7 @@ using System.Text;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
 using System.Windows.Forms;
 using SmartShares;
 using  Newtonsoft.Json;
@@ -34,65 +35,52 @@ namespace Blockchain.WebApplication
             }
         }
 
-        public void LinkButtonUploadMiningUser_Click(object sender, EventArgs e)
+        protected void LinkButtonUploadMiningUser_Click(object sender, EventArgs e)
         {
-            //var selectedUser = DropDownList1.SelectedValue;
-            //var user = DataManager.UploadUser(selectedUser);
+            var selectedUser = DropDownList1.SelectedValue;
+            var user = DataManager.UploadUser(selectedUser);
             //TextArea1.Value = JsonConvert.SerializeObject(user, Formatting.Indented);
             
-            var receiver = new UdpClient(8889);
+            var receiver = new UdpClient(9999);
             IPEndPoint remoteIp = null;
 
             try
             {
-                    var data = receiver.Receive(ref remoteIp);
-                    var json = Encoding.UTF8.GetString(data);
-                    var trabsaction = MessagePackSerializer.Deserialize<Transaction>(data);
+                var data = receiver.Receive(ref remoteIp);
+                var transaction = MessagePackSerializer.Deserialize<Transaction>(data);
 
-                    var block = Mining.ComputeBlock(trabsaction);
+                var additionalOutEntry = new OutEntry()
+                {
+                    RecipientHash = user.KeyPair.PublicKey,
+                    Value = 10
+                };
 
-                    var chain = new KeyValuePair<string, Block>(DataManager.UploadBlockchainDictionary().Last().Key,
-                        block);
+                transaction.OutEntries.Add(additionalOutEntry);
+                
+                var block = Mining.ComputeBlock(transaction);
+                
+                var chain = new KeyValuePair<string, Block>(DataManager.UploadBlockchainDictionary().Last().Key,
+                    block);
 
-                    Session["last chain"] = chain;
+                
+                Session["last chain"] = chain;
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                throw;
             }
             finally
             {
-                //var jsonByte = BlockchainUtil.SerializeJsonByteChain((KeyValuePair<string, Block>) Session["last chain"]);
-                //var jsonString = Encoding.UTF8.GetString(jsonByte);
                 var json = JsonConvert.SerializeObject(
-                    (KeyValuePair<string, Block>) Session["last chain"]);
-                Label1.Text = json.ToJonHtml();
+                    (KeyValuePair<string, Block>) Session["last chain"], Formatting.Indented);               
                 receiver.Close();
+
+                var tmp = DataManager.UploadBlockchainDictionary();
+
+                TextArea1.Value = json;
+                //Label1.Text = json;
+                //Label1.Text = json.ToJonHtml();
             }
         }
-
-        //protected void Button1_Click(object sender, EventArgs e)
-        //{
-        //    var receiver = new UdpClient(8889);
-        //    IPEndPoint remoteIp = null;
-
-        //    try
-        //    {
-        //        while (true)
-        //        {
-        //            var data = receiver.Receive(ref remoteIp);
-        //            TextArea1.Value += data.ToString();
-        //            break;
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine(ex.Message);
-        //    }
-        //    finally
-        //    {
-        //        receiver.Close();
-        //    }
-        //}
     }
 }

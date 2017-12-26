@@ -19,7 +19,7 @@ namespace SmartShares
 
     public static class CoinPocketManager
     {        
-        public static ulong ParseFromBlockain(Dictionary<byte[], Block> data, byte[] publicKey)
+        public static int ParseFromBlockain(Dictionary<byte[], Block> data, byte[] publicKey)
         {
             foreach (var variable in data)
             {
@@ -34,7 +34,7 @@ namespace SmartShares
             return 0;
         }
         
-        public static ulong ParseFromBlockainFix(Dictionary<byte[], Block> data, byte[] publicKey)
+        public static int ParseFromBlockainFix(Dictionary<byte[], Block> data, byte[] publicKey)
         {
             var current = data.Keys.Last();
             while (data[current].PreviousHash != null)

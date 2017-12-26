@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$/../../../Blockchain.ConsoleApplication" />
     <content url="file://$MODULE_DIR$/../.." />
     <content url="file://$MODULE_DIR$/../../../Blockchain.SmartShares.UnitTests" />
+    <content url="file://$MODULE_DIR$/../../../Blockchain.WPF" />
     <content url="file://$MODULE_DIR$/../../../Blockchain.WebApplication" />
     <content url="file://$MODULE_DIR$/../../../SmartShares" />
     <orderEntry type="sourceFolder" forTests="false" />

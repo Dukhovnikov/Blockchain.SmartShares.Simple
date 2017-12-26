@@ -7,11 +7,17 @@ namespace SmartShares
 {
     public static class BlockchainUtil
     {
+        /// <summary>
+        /// Make serialaize with MessagePackSerialaizer.
+        /// </summary>
         public static byte[] SerializeBlockchain(Dictionary<byte[], Block> data)
         {
             return MessagePackSerializer.Serialize(data);
         }
 
+        /// <summary>
+        /// Make serialaize with MessagePackSerialaizer.
+        /// </summary>
         public static byte[] SerializeTransaction(Transaction data)
         {
             return MessagePackSerializer.Serialize(data);
@@ -25,14 +31,12 @@ namespace SmartShares
             return byteJson;
         }
 
+        /// <summary>
+        /// Make deserialaize with MessagePackSerialaizer.
+        /// </summary>
         public static Dictionary<byte[], Block> DeserializeBlockchain(byte[] data)
         {
             return MessagePackSerializer.Deserialize<Dictionary<byte[], Block>>(data);
-        }
-
-        public static byte[] ToAddress(byte[] publicKey)
-        {
-            return Hash.ComputeSha256(publicKey);
         }
     }
 }

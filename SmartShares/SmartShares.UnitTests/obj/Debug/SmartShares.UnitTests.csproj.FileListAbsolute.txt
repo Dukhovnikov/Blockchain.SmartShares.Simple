@@ -1,0 +1,16 @@
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\bin\Debug\SmartShares.UnitTests.dll
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\bin\Debug\SmartShares.UnitTests.pdb
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\bin\Debug\MessagePack.dll
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\bin\Debug\Newtonsoft.Json.dll
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\bin\Debug\nunit.framework.dll
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\bin\Debug\SmartShares.dll
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\bin\Debug\SmartShares.pdb
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\bin\Debug\MessagePack.xml
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\bin\Debug\Newtonsoft.Json.xml
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\bin\Debug\nunit.framework.xml
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\obj\Debug\SmartShares.UnitTests.csprojResolveAssemblyReference.cache
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\obj\Debug\SmartShares.UnitTests.csproj.CoreCompileInputs.cache
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\obj\Debug\SmartShares.UnitTests.dll
+D:\Repositories\Blockchain.SmartShares.Simple\SmartShares\SmartShares.UnitTests\obj\Debug\SmartShares.UnitTests.pdb

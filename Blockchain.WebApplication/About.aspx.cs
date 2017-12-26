@@ -15,7 +15,7 @@ namespace Blockchain.WebApplication
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = DataManager.UploadBlockchain().ToJonHtml();
+            TextArea1.Value = DataManager.UploadBlockchain();
         }
     }
 }

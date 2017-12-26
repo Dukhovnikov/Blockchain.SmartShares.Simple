@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Blockchain.WPF"
         mc:Ignorable="d"
-        Title="PersonalArea" Height="373.318" Width="888.553" FontFamily="Baskerville Old Face" FontSize="16">
+        Title="PersonalArea" Height="373.318" Width="888.553" FontFamily="Baskerville Old Face" FontSize="16" Closing="Window_Closing">
     <Grid Background="{DynamicResource {x:Static SystemColors.WindowTextBrushKey}}">
         <GroupBox Name="GroupBoxInformationAboutUser" Header="Information" Height="89" VerticalAlignment="Top" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}">
             <Grid>
@@ -19,9 +19,10 @@
         <GroupBox Name="GroupBoxToPay" Header="Make transaction" Height="136" VerticalAlignment="Top" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" Margin="0,94,0,0">
             <Grid>
                 <Button Name="ButtonToPay" Content="To pay" Margin="217,32,554,0" Background="{DynamicResource {x:Static SystemColors.WindowTextBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontFamily="Baskerville Old Face" Height="22" VerticalAlignment="Top" Click="ButtonToPay_Click" BorderBrush="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" />
+                <Button Name="ButtonUploadRecipient" Content="Upload recipient" Margin="737,8,10,0" Background="{DynamicResource {x:Static SystemColors.WindowTextBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontFamily="Baskerville Old Face" Height="22" VerticalAlignment="Top" BorderBrush="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" Click="ButtonUploadRecipient_Click" />
                 <TextBlock Name="TextBlockInformationRecipientId" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Recipient ID:" VerticalAlignment="Top"/>
                 <TextBlock Name="TextBlockInformationAmountAct" HorizontalAlignment="Left" Margin="10,33,0,0" TextWrapping="Wrap" Text="Amount ACT:" VerticalAlignment="Top"/>
-                <TextBox Name="TextBoxRecipientId" HorizontalAlignment="Left" Height="22" Margin="114,9,0,0" TextWrapping="Wrap" Text="Recipient" VerticalAlignment="Top" Width="745" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Background="{DynamicResource {x:Static SystemColors.WindowTextBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                <TextBox Name="TextBoxRecipientId" HorizontalAlignment="Left" Height="22" Margin="114,9,0,0" TextWrapping="Wrap" Text="Recipient" VerticalAlignment="Top" Width="618" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Background="{DynamicResource {x:Static SystemColors.WindowTextBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" FontSize="12"/>
                 <TextBox Name="TextBoxAmountAct" HorizontalAlignment="Left" Height="22" Margin="114,32,0,0" TextWrapping="Wrap" Text="Amount" VerticalAlignment="Top" Width="98" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Background="{DynamicResource {x:Static SystemColors.WindowTextBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
             </Grid>
         </GroupBox>
