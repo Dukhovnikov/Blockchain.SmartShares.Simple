@@ -527,6 +527,16 @@
             Serialize to stream with specified resolver.
             </summary>
         </member>
+        <member name="M:MessagePack.MessagePackSerializer.SerializeAsync``1(System.IO.Stream,``0)">
+            <summary>
+            Serialize to stream(async).
+            </summary>
+        </member>
+        <member name="M:MessagePack.MessagePackSerializer.SerializeAsync``1(System.IO.Stream,``0,MessagePack.IFormatterResolver)">
+            <summary>
+            Serialize to stream(async) with specified resolver.
+            </summary>
+        </member>
         <member name="M:MessagePack.MessagePackSerializer.ToJson``1(``0)">
             <summary>
             Dump to JSON string.

@@ -37,7 +37,7 @@ namespace SmartShares
 
                 var messageforsending = Encoding.UTF8.GetBytes("Your transaction was successful added by some miner");
                 SendMessage(messageforsending, remoteIp.Port);
-                FileManager.UpdateBlockchain(MessagePackSerializer.Serialize(CurrentBlockchain));
+               // FileManager.UpdateBlockchain(MessagePackSerializer.Serialize(CurrentBlockchain));
 
             }
             catch(Exception ex)
@@ -110,6 +110,9 @@ namespace SmartShares
             return newBlock;
         }
 
+        /// <summary>
+        /// Поиск хэша 
+        /// </summary>
         private static int FindHash(int nonce)
         {
             for (int i = nonce; i < 100000000; i++)
@@ -125,15 +128,5 @@ namespace SmartShares
             return -1;
         }
         
-        
-        [MessagePackObject]
-        public class Message
-        {
-            [Key(0)]
-            public byte[] ToAddress { get; set; }
-
-            [Key(1)]
-            public ulong Value { get; set; }
-        }
     }
 }

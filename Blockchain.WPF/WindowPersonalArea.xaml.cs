@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using MessagePack;
+using Newtonsoft.Json;
 using SmartShares;
+using Block = SmartShares.Block;
 using Exception = System.Exception;
 
 namespace Blockchain.WPF
@@ -39,8 +43,14 @@ namespace Blockchain.WPF
             GroupBoxInformationAboutUser.Header = user.UserName;
             TextBlockId.Text = HexConvert.FromBytes(user.KeyPair.PublicKey);
 
+            var blockchain = DataManager.UploadBlockchainDictionary();
+            
+/*            var amount = int.Parse(Executor
+                .GetCash(DataManager.UploadBlockchainDictionary(), user.KeyPair.PublicKey).ToString());*/
+            
             var amount = int.Parse(Executor
-                .ParseFromBlockain(DataManager.UploadBlockchainDictionary(), user.KeyPair.PublicKey).ToString());
+                .GetCashRec(blockchain, user.KeyPair.PublicKey, blockchain.Last().Key).ToString());
+            
             Amount = amount;
             
             if (amount > -1)
@@ -100,7 +110,7 @@ namespace Blockchain.WPF
 
             var message = BlockchainUtil.SerializeTransaction(transaction);
 
-            var senderUdpClient = new UdpClient();
+            var senderUdpClient = new UdpClient(_userCoinPocket.ReceivePort);
 
             try
             {
@@ -121,10 +131,26 @@ namespace Blockchain.WPF
             {
                 senderUdpClient.Close();
             }
+
+            var receiver = new UdpClient(_userCoinPocket.ReceivePort);
+            IPEndPoint remoteIp = null;
+            var data = receiver.Receive(ref remoteIp);
+            var chain = MessagePackSerializer.Deserialize<KeyValuePair<string, Block>>(data);
+            var json = JsonConvert.SerializeObject(chain, Formatting.Indented);
+            GroupBoxStatus.Header = "You trancsaction has been added";
+
+            var blockchain = DataManager.UploadBlockchainDictionary();
+            TextBlockAct.Text = Executor
+                .GetCashRec(blockchain, _userCoinPocket.KeyPair.PublicKey, blockchain.Last().Key).ToString();
+            TextBlockStatus.Text = json;
+            receiver.Close();
         }
 
         private void ButtonUploadRecipient_Click(object sender, RoutedEventArgs e)
         {
+            var user = DataManager.UploadUser();
+
+            TextBoxRecipientId.Text = HexConvert.FromBytes(user.KeyPair.PublicKey);
 
         }
 

@@ -6,6 +6,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Security.Cryptography;
 using System.Text;
+using System.Threading;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -58,25 +59,33 @@ namespace Blockchain.WebApplication
                 transaction.OutEntries.Add(additionalOutEntry);
                 
                 var block = Mining.ComputeBlock(transaction);
-                
-                var chain = new KeyValuePair<string, Block>(DataManager.UploadBlockchainDictionary().Last().Key,
+
+                var chain = new KeyValuePair<string, Block>(
+                    HexConvert.FromBytes(DataManager.UploadBlockchainDictionary().Last().Value.Hash),
                     block);
 
+                DataManager.UpdateBlockchain(chain);
                 
                 Session["last chain"] = chain;
+                
+                Thread.Sleep(500);
+
+                var senderUdpClient = new UdpClient();
+                var message = MessagePackSerializer.Serialize(chain);
+                senderUdpClient.Send(
+                    message,
+                    message.Length,
+                    "127.0.0.1",
+                    remoteIp.Port);
+                senderUdpClient.Close();
             }
-            catch (Exception ex)
-            {
-                throw;
-            }
+
             finally
             {
                 var json = JsonConvert.SerializeObject(
                     (KeyValuePair<string, Block>) Session["last chain"], Formatting.Indented);               
-                receiver.Close();
-
-                var tmp = DataManager.UploadBlockchainDictionary();
-
+                receiver.Close();               
+                
                 TextArea1.Value = json;
                 //Label1.Text = json;
                 //Label1.Text = json.ToJonHtml();

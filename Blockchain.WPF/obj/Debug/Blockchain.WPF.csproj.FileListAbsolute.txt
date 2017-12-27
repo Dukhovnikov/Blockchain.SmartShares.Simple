@@ -62,3 +62,4 @@ E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\Blockchain.WPF.
 E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\Blockchain.WPF.csproj.CoreCompileInputs.cache
 E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\Blockchain.WPF.exe
 E:\GitHub\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\Blockchain.WPF.pdb
+D:\Repositories\Blockchain.SmartShares.Simple\Blockchain.WPF\obj\Debug\Blockchain.WPF.exe.config

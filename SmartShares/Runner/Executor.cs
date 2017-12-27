@@ -1,43 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting;
 
 namespace SmartShares
 {
     public class Executor
     {
-        public static int ParseFromBlockain(Dictionary<string, Block> data, byte[] publicKey)
-        {
-            var current = data.Keys.Last();
-            while (!data[current].PreviousHash.SequenceEqual(data[current].Hash))
-            {
-                if (data.ContainsKey(current))
-                {
-                    foreach (var outEntry in data[current].Transaction.OutEntries)
-                    {
-                        if (outEntry.RecipientHash.SequenceEqual(publicKey))
-                        {
-                            return (int)outEntry.Value;
-                        }
-                    }
-                }
-                else
-                { return -1; }
-                current = HexConvert.FromBytes(data[current].PreviousHash);
-            }
-            if (data[current].Id == 0)
-            {
-                foreach (var outEntry in data[current].Transaction.OutEntries)
-                {
-                    if (outEntry.RecipientHash.SequenceEqual(publicKey))
-                    {
-                        return (int) outEntry.Value;
-                    }
-                }
-            }
-            
-            return 0;
-        }
-
+       
 
         public static int GetCash(Dictionary<string, Block> data, byte[] publicKey)
         {
@@ -50,7 +19,7 @@ namespace SmartShares
                     .Where(outEntry => outEntry.RecipientHash.SequenceEqual(publicKey))
                     .Sum(outEntry => (int) outEntry.Value);
                 
-                if (EntryOutConsist(data[currentKey].Transaction.InEntries, publicKey))
+                if (EntryConsistPub(data[currentKey].Transaction.InEntries, publicKey))
                 {
                     return cash;
                 }
@@ -69,9 +38,42 @@ namespace SmartShares
 
         }
 
-        private static bool EntryOutConsist(IEnumerable<InEntry> inEntries, byte[] publicKey)
+        public static int GetCashRec(Dictionary<string, Block> data, byte[] publicKey, string current)
+        {
+            
+            if (EntryConsistPub(data[current].Transaction.InEntries, publicKey))
+            {
+                return GetCashOut(data[current].Transaction.OutEntries, publicKey);
+            }
+            if (ConsistOutWithoutEntry(data[current].Transaction, publicKey))
+            {
+                return GetCashOut(data[current].Transaction.OutEntries, publicKey) +
+                       GetCashRec(data, publicKey, HexConvert.FromBytes(data[current].PreviousHash));
+            }
+
+            return GetCashRec(data, publicKey, HexConvert.FromBytes(data[current].PreviousHash));
+        }
+
+        private static bool ConsistOutWithoutEntry(Transaction transaction, byte[] publicKey)
+        {
+            return !EntryConsistPub(transaction.InEntries, publicKey) && OutConsistPub(transaction.OutEntries, publicKey);
+        }
+
+        private static bool EntryConsistPub(IEnumerable<InEntry> inEntries, byte[] publicKey)
         {
             return inEntries == null || inEntries.Any(inEntry => inEntry.PublicKey.SequenceEqual(publicKey));
+        }
+
+        private static bool OutConsistPub(IEnumerable<OutEntry> outEntries, byte[] publicKey)
+        {
+            return outEntries.Any(outEntry => outEntry.RecipientHash.SequenceEqual(publicKey));
+        }
+
+        private static int GetCashOut(IEnumerable<OutEntry> outEntries, byte[] publicKey)
+        {
+            return (from outEntry in outEntries
+                where outEntry.RecipientHash.SequenceEqual(publicKey)
+                select outEntry.Value).FirstOrDefault();
         }
     }
 }

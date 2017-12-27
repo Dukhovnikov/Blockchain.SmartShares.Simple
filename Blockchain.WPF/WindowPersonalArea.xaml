@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Blockchain.WPF"
         mc:Ignorable="d"
-        Title="PersonalArea" Height="373.318" Width="888.553" FontFamily="Baskerville Old Face" FontSize="16" Closing="Window_Closing">
+        Title="PersonalArea" Height="908.218" Width="888.553" FontFamily="Baskerville Old Face" FontSize="16" Closing="Window_Closing">
     <Grid Background="{DynamicResource {x:Static SystemColors.WindowTextBrushKey}}">
         <GroupBox Name="GroupBoxInformationAboutUser" Header="Information" Height="89" VerticalAlignment="Top" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}">
             <Grid>
@@ -25,6 +25,9 @@
                 <TextBox Name="TextBoxRecipientId" HorizontalAlignment="Left" Height="22" Margin="114,9,0,0" TextWrapping="Wrap" Text="Recipient" VerticalAlignment="Top" Width="618" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Background="{DynamicResource {x:Static SystemColors.WindowTextBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" FontSize="12"/>
                 <TextBox Name="TextBoxAmountAct" HorizontalAlignment="Left" Height="22" Margin="114,32,0,0" TextWrapping="Wrap" Text="Amount" VerticalAlignment="Top" Width="98" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Background="{DynamicResource {x:Static SystemColors.WindowTextBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
             </Grid>
+        </GroupBox>
+        <GroupBox Name="GroupBoxStatus" Header="Status" Height="632" VerticalAlignment="Top" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" Margin="0,235,0,0" >
+            <TextBlock TextWrapping="Wrap" Text="" Name="TextBlockStatus" />
         </GroupBox>
     </Grid>
 </Window>
